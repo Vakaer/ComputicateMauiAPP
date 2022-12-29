@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="ComputicateMobileAPP.Views.Dashboard"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:mct="clr-namespace:CommunityToolkit.Maui.Behaviors;assembly=CommunityToolkit.Maui"
+    Title="Dashboard">
+    <ContentPage.Behaviors>
+        <mct:StatusBarBehavior StatusBarColor="#408BEA" StatusBarStyle="LightContent" />
+    </ContentPage.Behaviors>
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem IconImageSource="search.png" Text="notifications" />
+        <ToolbarItem IconImageSource="bell.png" Text="notifications" />
+    </ContentPage.ToolbarItems>
+    <Grid RowDefinitions="*" RowSpacing="0">
+        <ScrollView Grid.Row="0">
+            <Grid RowDefinitions="Auto, 0, 47" RowSpacing="0">
+                <Grid
+                    Grid.Row="0"
+                    Padding="10"
+                    ColumnDefinitions="*,*"
+                    ColumnSpacing="10"
+                    RowDefinitions="170,170,170"
+                    RowSpacing="10">
+                    <Grid.Resources>
+                        <Style TargetType="Frame">
+                            <Setter Property="Margin" Value="0" />
+                            <Setter Property="Padding" Value="16" />
+                            <Setter Property="HasShadow" Value="False" />
+                            <Setter Property="IsClippedToBounds" Value="True" />
+                            <Setter Property="CornerRadius" Value="10" />
+                            <Setter Property="BackgroundColor" Value="#2668c5" />
+                        </Style>
+                    </Grid.Resources>
+                    <Frame BackgroundColor="#4592FF">
+                        <Grid ColumnDefinitions=".75*,.25*" RowDefinitions=".5*,*,*">
+                            <Image
+                                Grid.Column="1"
+                                HorizontalOptions="End"
+                                Source="ticket.png" />
+                            <Label
+                                Grid.Row="1"
+                                FontAttributes="Bold"
+                                FontSize="32"
+                                Text="05"
+                                TextColor="White" />
+                            <Label
+                                Grid.Row="2"
+                                FontSize="18"
+                                Text="Open &#10;Tickets"
+                                TextColor="White" />
+                        </Grid>
+                    </Frame>
+
+                    <Frame Grid.Column="1">
+                        <Grid ColumnDefinitions=".75*,.25*" RowDefinitions=".5*,*,*">
+                            <Image
+                                Grid.Column="1"
+                                HorizontalOptions="End"
+                                Source="ticket.png" />
+                            <Label
+                                Grid.Row="1"
+                                FontAttributes="Bold"
+                                FontSize="32"
+                                Text="23"
+                                TextColor="White" />
+                            <Label
+                                Grid.Row="2"
+                                Grid.ColumnSpan="2"
+                                FontSize="18"
+                                Text="Upcoming Onsite Visits"
+                                TextColor="White" />
+                        </Grid>
+                    </Frame>
+
+                    <Frame Grid.Row="1">
+                        <Grid ColumnDefinitions=".75*,.25*" RowDefinitions=".5*,*,*">
+                            <Image
+                                Grid.Column="1"
+                                HorizontalOptions="End"
+                                Source="ticket.png" />
+                            <Label
+                                Grid.Row="1"
+                                FontAttributes="Bold"
+                                FontSize="32"
+                                Text="23"
+                                TextColor="White" />
+                            <Label
+                                Grid.Row="2"
+                                FontSize="18"
+                                Text="Ticket Due Date"
+                                TextColor="White" />
+                        </Grid>
+                    </Frame>
+
+                    <Frame
+                        Grid.Row="1"
+                        Grid.Column="1"
+                        BackgroundColor="#4592FF">
+                        <Grid ColumnDefinitions=".75*,.25*" RowDefinitions=".5*,*,*">
+                            <Image
+                                Grid.Column="1"
+                                HorizontalOptions="End"
+                                Source="ticket.png" />
+                            <Label
+                                Grid.Row="1"
+                                FontAttributes="Bold"
+                                FontSize="32"
+                                Text="23"
+                                TextColor="White" />
+                            <Label
+                                Grid.Row="2"
+                                FontSize="18"
+                                Text="SLA Breaches"
+                                TextColor="White" />
+                        </Grid>
+                    </Frame>
+
+                    <Frame Grid.Row="2">
+                        <Grid ColumnDefinitions=".75*,.25*" RowDefinitions=".5*,*,*">
+                            <Image
+                                Grid.Column="1"
+                                HorizontalOptions="End"
+                                Source="ticket.png" />
+                            <Label
+                                Grid.Row="1"
+                                FontAttributes="Bold"
+                                FontSize="32"
+                                Text="23"
+                                TextColor="White" />
+                            <Label
+                                Grid.Row="2"
+                                Grid.ColumnSpan="2"
+                                FontSize="18"
+                                Text="Unassigned Tickets"
+                                TextColor="White" />
+                        </Grid>
+                    </Frame>
+                </Grid>
+
+                <Grid
+                    Grid.Row="2"
+                    Margin="20,0,20,0"
+                    ColumnDefinitions="*,Auto"
+                    ColumnSpacing="0">
+
+                    <Label
+                        Grid.Column="0"
+                        FontAttributes="Bold"
+                        FontSize="22"
+                        Text="Your Score"
+                        TextColor="#2E2E3A"
+                        VerticalTextAlignment="Center" />
+                    <Frame
+                        Grid.Column="1"
+                        Margin="0"
+                        Padding="2"
+                        BackgroundColor="#E9E9EA"
+                        BorderColor="Transparent"
+                        CornerRadius="8"
+                        HasShadow="False"
+                        HeightRequest="32"
+                        IsClippedToBounds="True"
+                        VerticalOptions="Center">
+                        <Grid ColumnDefinitions="Auto,Auto" ColumnSpacing="0">
+                            <Frame
+                                Grid.Column="0"
+                                Margin="0"
+                                Padding="16,0"
+                                BackgroundColor="#408BEA"
+                                BorderColor="Transparent"
+                                CornerRadius="8"
+                                HasShadow="False"
+                                IsClippedToBounds="True">
+                                <Label
+                                    Text="Weekly"
+                                    TextColor="White"
+                                    VerticalTextAlignment="Center" />
+                            </Frame>
+
+
+
+                            <Frame
+                                Grid.Column="1"
+                                Margin="0"
+                                Padding="16,0"
+                                BackgroundColor="Transparent"
+                                BorderColor="Transparent"
+                                CornerRadius="8"
+                                HasShadow="False"
+                                IsClippedToBounds="True">
+                                <Label
+                                    Text="Yearly"
+                                    TextColor="Black"
+                                    VerticalTextAlignment="Center" />
+                            </Frame>
+                        </Grid>
+                    </Frame>
+                </Grid>
+
+            </Grid>
+
+        </ScrollView>
+    </Grid>
+
+
+</ContentPage>

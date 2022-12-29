@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="ComputicateMobileAPP.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:Views="clr-namespace:ComputicateMobileAPP.Views"
+    xmlns:local="clr-namespace:ComputicateMobileAPP"
+    BackgroundColor="#408BEA"
+    FlyoutBackgroundColor="#408BEA"
+    FlyoutIcon="bhamburger.svg"
+    FlyoutWidth="400"
+    Shell.FlyoutBehavior="Flyout">
+    <!--  Shell resources  -->
+    <Shell.Resources>
+        <!--  to change color of label of each flyout item  -->
+        <!--<Style Class="FlyoutItemLabelStyle" TargetType="Label">
+            <Setter Property="TextColor" Value="White" />
+            <Setter Property="Padding" Value="0,0,0,0"/>
+        </Style>-->
+        <Style x:Key="ServiceDeskPageStyle" TargetType="Element">
+            <Setter Property="Shell.BackgroundColor" Value="White" />
+            <Setter Property="Shell.TitleColor" Value="Black" />
+
+
+        </Style>
+        <Style x:Key="shellStyle" TargetType="Shell">
+            <Setter Property="Padding" Value="50" />
+        </Style>
+        <Style x:Key="titleStyle" TargetType="Label">
+            <Setter Property="TextColor" Value="White" />
+            <Setter Property="Padding" Value="10,10,0,50" />
+        </Style>
+        <Style x:Key="lableStyle" TargetType="Label">
+            <Setter Property="TextColor" Value="White" />
+        </Style>
+    </Shell.Resources>
+
+    <!--  Shell item templates  -->
+    <Shell.ItemTemplate>
+        <DataTemplate>
+            <Grid Padding="40,0,0,30" ColumnDefinitions="50,*">
+                <Image Source="{Binding Icon}" />
+                <Label
+                    Grid.Column="1"
+                    FontAttributes="Bold"
+                    FontSize="14"
+                    Text="{Binding Title}"
+                    TextColor="White" />
+            </Grid>
+        </DataTemplate>
+    </Shell.ItemTemplate>
+
+    <!--  Shell Header  -->
+    <Shell.FlyoutHeader>
+        <Grid
+            Padding="25,20,0,5"
+            RowDefinitions=".75*,.25*"
+            RowSpacing="40">
+            <Image
+                Margin="15,0,0,0"
+                Aspect="AspectFit"
+                HorizontalOptions="Start"
+                Source="acronis_logo.png"
+                VerticalOptions="Start" />
+            <Line
+                Grid.Row="1"
+                HeightRequest="20"
+                Stroke="white"
+                X2="320" />
+        </Grid>
+    </Shell.FlyoutHeader>
+
+    <!--  Shell Footer  -->
+    <Shell.FlyoutFooter>
+        <StackLayout
+            Padding="45,50,50,30"
+            HorizontalOptions="StartAndExpand"
+            Orientation="Horizontal"
+            Spacing="10">
+            <Image Aspect="AspectFit" Source="signout.png" />
+            <Label
+                FontSize="16"
+                Text="Logout"
+                TextColor="White" />
+        </StackLayout>
+    </Shell.FlyoutFooter>
+
+    <FlyoutItem Title="Dashboard" Icon="dashboard.png">
+        <ShellContent ContentTemplate="{DataTemplate Views:Dashboard}" Route="Homepage" />
+    </FlyoutItem>
+    <FlyoutItem
+        Title="Desk Service"
+        FlyoutIcon="bhamburger.svg"
+        Icon="desk.png">
+        <ShellContent
+            ContentTemplate="{DataTemplate Views:DeskService}"
+            Route="deskService"
+            Style="{StaticResource ServiceDeskPageStyle}" />
+
+    </FlyoutItem>
+    <FlyoutItem
+        Title="Time Entries"
+        FlyoutIcon="dashboard.png"
+        Icon="clock.png">
+
+        <ShellContent ContentTemplate="{DataTemplate Views:TimeEntries}" Route="timeEntries" />
+
+    </FlyoutItem>
+    <FlyoutItem Title="Create Ticket" Icon="ticket.png">
+
+        <ShellContent ContentTemplate="{DataTemplate Views:CreateTicket}" Route="createTicket" />
+
+    </FlyoutItem>
+
+
+</Shell>

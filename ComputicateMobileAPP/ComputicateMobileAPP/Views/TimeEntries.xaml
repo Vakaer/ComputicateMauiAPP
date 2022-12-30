@@ -3,43 +3,479 @@
     x:Class="ComputicateMobileAPP.Views.TimeEntries"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:mct="clr-namespace:CommunityToolkit.Maui.Behaviors;assembly=CommunityToolkit.Maui"
+    xmlns:views="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
     Title="TimeEntries">
+
+    <ContentPage.Behaviors>
+        <mct:StatusBarBehavior StatusBarColor="White" StatusBarStyle="DarkContent" />
+    </ContentPage.Behaviors>
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem IconImageSource="filter.svg" Text="notifications" />
+        <ToolbarItem IconImageSource="blue_bell.svg" Text="notifications" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Resources>
+        <Style x:Key="ExpanderHeader" TargetType="Element">
+            <Setter Property="Grid.Padding" Value="16,4" />
+        </Style>
+        <Style x:Key="CustomBorder" TargetType="Frame">
+            <Setter Property="CornerRadius" Value="40" />
+        </Style>
+    </ContentPage.Resources>
     <ContentPage.Content>
-        <Frame
-            Margin="0"
-            Padding="0"
-            BackgroundColor="#F5F9E9"
-            BorderColor="Transparent"
-            HasShadow="False"
-            HeightRequest="30"
-            IsClippedToBounds="True">
-            <Grid ColumnDefinitions="*,*" RowDefinitions="Auto">
-                <HorizontalStackLayout
-                    Grid.Row="0"
-                    Grid.Column="0"
-                    Spacing="5">
-                    <Image Aspect="AspectFit" Source="green_bell.svg" />
-                    <Label
-                        FontSize="10"
-                        HorizontalOptions="Center"
-                        Text="Activities Scheduled" />
-                </HorizontalStackLayout>
-                <HorizontalStackLayout
-                    Grid.Row="0"
-                    Grid.Column="1"
-                    Spacing="5">
-                    <Image Aspect="AspectFit" Source="green_bell.svg" />
-                    <Label
-                        FontSize="10"
-                        HorizontalOptions="Center"
-                        Text="Time Spent:" />
-                    <Label
-                        HorizontalOptions="Center"
-                        Text="1h 0min"
-                        TextColor="#677383" />
-                </HorizontalStackLayout>
-            </Grid>
-        </Frame>
+        <Grid RowDefinitions="*,Auto" RowSpacing="0">
+            <ScrollView
+                Grid.Row="0"
+                Grid.Column="0"
+                Margin="0,18,0,18">
+                <StackLayout Spacing="18">
+                    <views:Expander x:Name="MyExpander">
+                        <views:Expander.Header>
+                            <Border
+                                Margin="30,0"
+                                BackgroundColor="#D5E2F4"
+                                StrokeShape="RoundRectangle 8,8,0,0"
+                                StrokeThickness="0">
+                                <Border.Triggers>
+                                    <DataTrigger
+                                        Binding="{Binding Source={x:Reference MyExpander}, Path='IsExpanded'}"
+                                        TargetType="Border"
+                                        Value="false">
+                                        <Setter Property="StrokeShape" Value="RoundRectangle 8,8,8,8" />
+                                    </DataTrigger>
+                                </Border.Triggers>
+                                <Grid
+                                    x:Name="ListHeader"
+                                    ColumnDefinitions="*,Auto"
+                                    RowDefinitions="Auto,Auto"
+                                    RowSpacing="0"
+                                    Style="{StaticResource ExpanderHeader}"
+                                    VerticalOptions="Center">
+                                    <HorizontalStackLayout Grid.Row="0" Grid.Column="0">
+                                        <Label
+                                            FontAttributes="Bold"
+                                            FontSize="14"
+                                            Text="03/01/2019" />
+                                        <Label FontSize="14" Text=", Thursday" />
+                                    </HorizontalStackLayout>
+                                    <HorizontalStackLayout
+                                        Grid.Row="1"
+                                        Grid.Column="0"
+                                        Spacing="5">
+                                        <Label FontSize="10" Text="Total: " />
+                                        <Label
+                                            FontAttributes="Bold"
+                                            FontSize="10"
+                                            Text="30" />
+                                        <Label FontSize="10" Text="minutes" />
+                                    </HorizontalStackLayout>
+                                    <StackLayout Grid.Row="0" Grid.Column="1">
+                                        <Image
+                                            x:Name="img"
+                                            Margin="0,10,0,0"
+                                            Aspect="AspectFit"
+                                            Rotation="0"
+                                            Source="up_arrow.svg">
+                                            <Image.Triggers>
+                                                <DataTrigger
+                                                    Binding="{Binding Source={x:Reference MyExpander}, Path='IsExpanded'}"
+                                                    TargetType="Image"
+                                                    Value="True">
+                                                    <Setter Property="Rotation" Value="180" />
+                                                </DataTrigger>
+                                            </Image.Triggers>
+                                        </Image>
+                                    </StackLayout>
+
+                                </Grid>
+                            </Border>
+                        </views:Expander.Header>
+                        <views:Expander.Content>
+                            <Border
+                                Margin="30,-2"
+                                Padding="16,6"
+                                BackgroundColor="#EBF0F7"
+                                StrokeShape="RoundRectangle 0,0,8,8"
+                                StrokeThickness="0">
+                                <Grid
+                                    ColumnDefinitions="Auto"
+                                    RowDefinitions="Auto,Auto,*"
+                                    RowSpacing="5">
+                                    <Label
+                                        Grid.Row="0"
+                                        FontAttributes="Bold"
+                                        FontSize="16"
+                                        Text="20181221-27"
+                                        TextColor="#243143" />
+                                    <VerticalStackLayout Grid.Row="1">
+                                        <Label
+                                            FontSize="12"
+                                            Text="Olivia Brewr"
+                                            TextColor="#243143" />
+                                        <Label
+                                            FontSize="12"
+                                            Text="Royal Bank of Scotland, "
+                                            TextColor="#677383" />
+                                        <Label
+                                            FontSize="12"
+                                            Text="20160929-4"
+                                            TextColor="#677383" />
+                                        <Label
+                                            FontSize="12"
+                                            Text="Time Spent: 0h 0min 03-01-2019"
+                                            TextColor="#677383" />
+                                    </VerticalStackLayout>
+                                    <HorizontalStackLayout Grid.Row="2" VerticalOptions="Center">
+                                        <Label
+                                            FontAttributes="Bold"
+                                            Text="Billable: "
+                                            TextColor="#243143" />
+                                        <Label Text="No" TextColor="#243143" />
+                                    </HorizontalStackLayout>
+                                </Grid>
+                            </Border>
+                        </views:Expander.Content>
+
+                    </views:Expander>
+
+                    <views:Expander x:Name="MyExpander2">
+                        <views:Expander.Header>
+                            <Border
+                                Margin="30,0"
+                                BackgroundColor="#D5E2F4"
+                                StrokeShape="RoundRectangle 8,8,0,0"
+                                StrokeThickness="0">
+                                <Border.Triggers>
+                                    <DataTrigger
+                                        Binding="{Binding Source={x:Reference MyExpander}, Path='IsExpanded'}"
+                                        TargetType="Border"
+                                        Value="false">
+                                        <Setter Property="StrokeShape" Value="RoundRectangle 8,8,8,8" />
+                                    </DataTrigger>
+                                </Border.Triggers>
+                                <Grid
+                                    x:Name="ListHeader2"
+                                    ColumnDefinitions="*,Auto"
+                                    RowDefinitions="Auto,Auto"
+                                    RowSpacing="0"
+                                    Style="{StaticResource ExpanderHeader}"
+                                    VerticalOptions="Center">
+                                    <HorizontalStackLayout Grid.Row="0" Grid.Column="0">
+                                        <Label
+                                            FontAttributes="Bold"
+                                            FontSize="14"
+                                            Text="03/01/2019" />
+                                        <Label FontSize="14" Text=", Thursday" />
+                                    </HorizontalStackLayout>
+                                    <HorizontalStackLayout
+                                        Grid.Row="1"
+                                        Grid.Column="0"
+                                        Spacing="5">
+                                        <Label FontSize="10" Text="Total: " />
+                                        <Label
+                                            FontAttributes="Bold"
+                                            FontSize="10"
+                                            Text="30" />
+                                        <Label FontSize="10" Text="minutes" />
+                                    </HorizontalStackLayout>
+                                    <StackLayout Grid.Row="0" Grid.Column="1">
+                                        <Image
+                                            x:Name="img2"
+                                            Margin="0,10,0,0"
+                                            Aspect="AspectFit"
+                                            Rotation="0"
+                                            Source="up_arrow.svg">
+                                            <Image.Triggers>
+                                                <DataTrigger
+                                                    Binding="{Binding Source={x:Reference MyExpander2}, Path='IsExpanded'}"
+                                                    TargetType="Image"
+                                                    Value="True">
+                                                    <Setter Property="Rotation" Value="180" />
+                                                </DataTrigger>
+                                            </Image.Triggers>
+                                        </Image>
+                                    </StackLayout>
+
+                                </Grid>
+                            </Border>
+                        </views:Expander.Header>
+                        <views:Expander.Content>
+                            <Border
+                                Margin="30,-2"
+                                Padding="16,6"
+                                BackgroundColor="#EBF0F7"
+                                StrokeShape="RoundRectangle 0,0,8,8"
+                                StrokeThickness="0">
+                                <Grid
+                                    ColumnDefinitions="Auto"
+                                    RowDefinitions="Auto,Auto,*"
+                                    RowSpacing="5">
+                                    <Label
+                                        Grid.Row="0"
+                                        FontAttributes="Bold"
+                                        FontSize="16"
+                                        Text="20181221-27"
+                                        TextColor="#243143" />
+                                    <VerticalStackLayout Grid.Row="1">
+                                        <Label
+                                            FontSize="12"
+                                            Text="Olivia Brewr"
+                                            TextColor="#243143" />
+                                        <Label
+                                            FontSize="12"
+                                            Text="Royal Bank of Scotland, "
+                                            TextColor="#677383" />
+                                        <Label
+                                            FontSize="12"
+                                            Text="20160929-4"
+                                            TextColor="#677383" />
+                                        <Label
+                                            FontSize="12"
+                                            Text="Time Spent: 0h 0min 03-01-2019"
+                                            TextColor="#677383" />
+                                    </VerticalStackLayout>
+                                    <HorizontalStackLayout Grid.Row="2" VerticalOptions="Center">
+                                        <Label
+                                            FontAttributes="Bold"
+                                            Text="Billable: "
+                                            TextColor="#243143" />
+                                        <Label Text="No" TextColor="#243143" />
+                                    </HorizontalStackLayout>
+                                </Grid>
+                            </Border>
+                        </views:Expander.Content>
+
+                    </views:Expander>
+
+                    <views:Expander x:Name="MyExpander3">
+                        <views:Expander.Header>
+                            <Border
+                                Margin="30,0"
+                                BackgroundColor="#D5E2F4"
+                                StrokeShape="RoundRectangle 8,8,0,0"
+                                StrokeThickness="0">
+                                <Border.Triggers>
+                                    <DataTrigger
+                                        Binding="{Binding Source={x:Reference MyExpander3}, Path='IsExpanded'}"
+                                        TargetType="Border"
+                                        Value="false">
+                                        <Setter Property="StrokeShape" Value="RoundRectangle 8,8,8,8" />
+                                    </DataTrigger>
+                                </Border.Triggers>
+                                <Grid
+                                    x:Name="ListHeader3"
+                                    ColumnDefinitions="*,Auto"
+                                    RowDefinitions="Auto,Auto"
+                                    RowSpacing="0"
+                                    Style="{StaticResource ExpanderHeader}"
+                                    VerticalOptions="Center">
+                                    <HorizontalStackLayout Grid.Row="0" Grid.Column="0">
+                                        <Label
+                                            FontAttributes="Bold"
+                                            FontSize="14"
+                                            Text="03/01/2019" />
+                                        <Label FontSize="14" Text=", Thursday" />
+                                    </HorizontalStackLayout>
+                                    <HorizontalStackLayout
+                                        Grid.Row="1"
+                                        Grid.Column="0"
+                                        Spacing="5">
+                                        <Label FontSize="10" Text="Total: " />
+                                        <Label
+                                            FontAttributes="Bold"
+                                            FontSize="10"
+                                            Text="30" />
+                                        <Label FontSize="10" Text="minutes" />
+                                    </HorizontalStackLayout>
+                                    <StackLayout Grid.Row="0" Grid.Column="1">
+                                        <Image
+                                            x:Name="img3"
+                                            Margin="0,10,0,0"
+                                            Aspect="AspectFit"
+                                            Rotation="0"
+                                            Source="up_arrow.svg">
+                                            <Image.Triggers>
+                                                <DataTrigger
+                                                    Binding="{Binding Source={x:Reference MyExpander}, Path='IsExpanded'}"
+                                                    TargetType="Image"
+                                                    Value="True">
+                                                    <Setter Property="Rotation" Value="180" />
+                                                </DataTrigger>
+                                            </Image.Triggers>
+                                        </Image>
+                                    </StackLayout>
+
+                                </Grid>
+                            </Border>
+                        </views:Expander.Header>
+                        <views:Expander.Content>
+                            <Border
+                                Margin="30,-2"
+                                Padding="16,6"
+                                BackgroundColor="#EBF0F7"
+                                StrokeShape="RoundRectangle 0,0,8,8"
+                                StrokeThickness="0">
+                                <Grid
+                                    ColumnDefinitions="Auto"
+                                    RowDefinitions="Auto,Auto,*"
+                                    RowSpacing="5">
+                                    <Label
+                                        Grid.Row="0"
+                                        FontAttributes="Bold"
+                                        FontSize="16"
+                                        Text="20181221-27"
+                                        TextColor="#243143" />
+                                    <VerticalStackLayout Grid.Row="1">
+                                        <Label
+                                            FontSize="12"
+                                            Text="Olivia Brewr"
+                                            TextColor="#243143" />
+                                        <Label
+                                            FontSize="12"
+                                            Text="Royal Bank of Scotland, "
+                                            TextColor="#677383" />
+                                        <Label
+                                            FontSize="12"
+                                            Text="20160929-4"
+                                            TextColor="#677383" />
+                                        <Label
+                                            FontSize="12"
+                                            Text="Time Spent: 0h 0min 03-01-2019"
+                                            TextColor="#677383" />
+                                    </VerticalStackLayout>
+                                    <HorizontalStackLayout Grid.Row="2" VerticalOptions="Center">
+                                        <Label
+                                            FontAttributes="Bold"
+                                            Text="Billable: "
+                                            TextColor="#243143" />
+                                        <Label Text="No" TextColor="#243143" />
+                                    </HorizontalStackLayout>
+                                </Grid>
+                            </Border>
+                        </views:Expander.Content>
+
+                    </views:Expander>
+
+                    <views:Expander x:Name="MyExpander4">
+                        <views:Expander.Header>
+                            <Border
+                                Margin="30,0"
+                                BackgroundColor="#D5E2F4"
+                                StrokeShape="RoundRectangle 8,8,0,0"
+                                StrokeThickness="0">
+                                <Border.Triggers>
+                                    <DataTrigger
+                                        Binding="{Binding Source={x:Reference MyExpander3}, Path='IsExpanded'}"
+                                        TargetType="Border"
+                                        Value="false">
+                                        <Setter Property="StrokeShape" Value="RoundRectangle 8,8,8,8" />
+                                    </DataTrigger>
+                                </Border.Triggers>
+                                <Grid
+                                    x:Name="ListHeader4"
+                                    ColumnDefinitions="*,Auto"
+                                    RowDefinitions="Auto,Auto"
+                                    RowSpacing="0"
+                                    Style="{StaticResource ExpanderHeader}"
+                                    VerticalOptions="Center">
+                                    <HorizontalStackLayout Grid.Row="0" Grid.Column="0">
+                                        <Label
+                                            FontAttributes="Bold"
+                                            FontSize="14"
+                                            Text="03/01/2019" />
+                                        <Label FontSize="14" Text=", Thursday" />
+                                    </HorizontalStackLayout>
+                                    <HorizontalStackLayout
+                                        Grid.Row="1"
+                                        Grid.Column="0"
+                                        Spacing="5">
+                                        <Label FontSize="10" Text="Total: " />
+                                        <Label
+                                            FontAttributes="Bold"
+                                            FontSize="10"
+                                            Text="30" />
+                                        <Label FontSize="10" Text="minutes" />
+                                    </HorizontalStackLayout>
+                                    <StackLayout Grid.Row="0" Grid.Column="1">
+                                        <Image
+                                            x:Name="img4"
+                                            Margin="0,10,0,0"
+                                            Aspect="AspectFit"
+                                            Rotation="0"
+                                            Source="up_arrow.svg">
+                                            <Image.Triggers>
+                                                <DataTrigger
+                                                    Binding="{Binding Source={x:Reference MyExpander4}, Path='IsExpanded'}"
+                                                    TargetType="Image"
+                                                    Value="True">
+                                                    <Setter Property="Rotation" Value="180" />
+                                                </DataTrigger>
+                                            </Image.Triggers>
+                                        </Image>
+                                    </StackLayout>
+
+                                </Grid>
+                            </Border>
+                        </views:Expander.Header>
+                        <views:Expander.Content>
+                            <Border
+                                Margin="30,-2"
+                                Padding="16,6"
+                                BackgroundColor="#EBF0F7"
+                                StrokeShape="RoundRectangle 0,0,8,8"
+                                StrokeThickness="0">
+                                <Grid
+                                    ColumnDefinitions="Auto"
+                                    RowDefinitions="Auto,Auto,*"
+                                    RowSpacing="5">
+                                    <Label
+                                        Grid.Row="0"
+                                        FontAttributes="Bold"
+                                        FontSize="16"
+                                        Text="20181221-27"
+                                        TextColor="#243143" />
+                                    <VerticalStackLayout Grid.Row="1">
+                                        <Label
+                                            FontSize="12"
+                                            Text="Olivia Brewr"
+                                            TextColor="#243143" />
+                                        <Label
+                                            FontSize="12"
+                                            Text="Royal Bank of Scotland, "
+                                            TextColor="#677383" />
+                                        <Label
+                                            FontSize="12"
+                                            Text="20160929-4"
+                                            TextColor="#677383" />
+                                        <Label
+                                            FontSize="12"
+                                            Text="Time Spent: 0h 0min 03-01-2019"
+                                            TextColor="#677383" />
+                                    </VerticalStackLayout>
+                                    <HorizontalStackLayout Grid.Row="2" VerticalOptions="Center">
+                                        <Label
+                                            FontAttributes="Bold"
+                                            Text="Billable: "
+                                            TextColor="#243143" />
+                                        <Label Text="No" TextColor="#243143" />
+                                    </HorizontalStackLayout>
+                                </Grid>
+                            </Border>
+                        </views:Expander.Content>
+
+                    </views:Expander>
+
+
+                </StackLayout>
+            </ScrollView>
+            <Button
+                Grid.Row="1"
+                Margin="30"
+                BackgroundColor="#2668C5"
+                Text="Time New Registration" />
+        </Grid>
+
 
     </ContentPage.Content>
 </ContentPage>

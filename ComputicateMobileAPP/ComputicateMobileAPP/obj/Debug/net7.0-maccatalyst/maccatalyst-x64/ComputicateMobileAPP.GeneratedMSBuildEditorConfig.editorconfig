@@ -1,0 +1,65 @@
+is_global = true
+build_property.TargetFramework = net7.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ComputicateMobileAPP
+build_property.ProjectDir = C:\Users\DevHouse\Documents\GitHub\ComputicateMauiAPP\ComputicateMobileAPP\ComputicateMobileAPP\
+
+[C:/Users/DevHouse/Documents/GitHub/ComputicateMauiAPP/ComputicateMobileAPP/ComputicateMobileAPP/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ComputicateMobileAPP.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/DevHouse/Documents/GitHub/ComputicateMauiAPP/ComputicateMobileAPP/ComputicateMobileAPP/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ComputicateMobileAPP.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/DevHouse/Documents/GitHub/ComputicateMauiAPP/ComputicateMobileAPP/ComputicateMobileAPP/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ComputicateMobileAPP.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/DevHouse/Documents/GitHub/ComputicateMauiAPP/ComputicateMobileAPP/ComputicateMobileAPP/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ComputicateMobileAPP.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/DevHouse/Documents/GitHub/ComputicateMauiAPP/ComputicateMobileAPP/ComputicateMobileAPP/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ComputicateMobileAPP.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/DevHouse/Documents/GitHub/ComputicateMauiAPP/ComputicateMobileAPP/ComputicateMobileAPP/Views/CreateTicket.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ComputicateMobileAPP.Views.CreateTicket.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CreateTicket.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CreateTicket.xaml
+
+[C:/Users/DevHouse/Documents/GitHub/ComputicateMauiAPP/ComputicateMobileAPP/ComputicateMobileAPP/Views/Dashboard.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ComputicateMobileAPP.Views.Dashboard.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Dashboard.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Dashboard.xaml
+
+[C:/Users/DevHouse/Documents/GitHub/ComputicateMauiAPP/ComputicateMobileAPP/ComputicateMobileAPP/Views/DeskService.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ComputicateMobileAPP.Views.DeskService.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\DeskService.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\DeskService.xaml
+
+[C:/Users/DevHouse/Documents/GitHub/ComputicateMauiAPP/ComputicateMobileAPP/ComputicateMobileAPP/Views/TimeEntries.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ComputicateMobileAPP.Views.TimeEntries.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\TimeEntries.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\TimeEntries.xaml

@@ -20,7 +20,10 @@
         <Style x:Key="ServiceDeskPageStyle" TargetType="Element">
             <Setter Property="Shell.BackgroundColor" Value="White" />
             <Setter Property="Shell.TitleColor" Value="Black" />
-
+        </Style>
+        <Style x:Key="TimeEntriesPageStyle" TargetType="Element">
+            <Setter Property="Shell.BackgroundColor" Value="White" />
+            <Setter Property="Shell.TitleColor" Value="Black" />
 
         </Style>
         <Style x:Key="shellStyle" TargetType="Shell">
@@ -96,14 +99,17 @@
             ContentTemplate="{DataTemplate Views:DeskService}"
             Route="deskService"
             Style="{StaticResource ServiceDeskPageStyle}" />
-
     </FlyoutItem>
     <FlyoutItem
         Title="Time Entries"
         FlyoutIcon="dashboard.png"
         Icon="clock.png">
 
-        <ShellContent ContentTemplate="{DataTemplate Views:TimeEntries}" Route="timeEntries" />
+        <ShellContent
+            ContentTemplate="{DataTemplate Views:TimeEntries}"
+            FlyoutIcon="bhamburger.svg"
+            Route="timeEntries"
+            Style="{StaticResource TimeEntriesPageStyle}" />
 
     </FlyoutItem>
     <FlyoutItem Title="Create Ticket" Icon="ticket.png">

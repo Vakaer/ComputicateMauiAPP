@@ -57,6 +57,15 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Fonts\Inter-Black.ttf" />
+	  <None Remove="Resources\Fonts\Inter-Bold.ttf" />
+	  <None Remove="Resources\Fonts\Inter-ExtraBold.ttf" />
+	  <None Remove="Resources\Fonts\Inter-ExtraLight.ttf" />
+	  <None Remove="Resources\Fonts\Inter-Light.ttf" />
+	  <None Remove="Resources\Fonts\Inter-Medium.ttf" />
+	  <None Remove="Resources\Fonts\Inter-Regular.ttf" />
+	  <None Remove="Resources\Fonts\Inter-SemiBold.ttf" />
+	  <None Remove="Resources\Fonts\Inter-Thin.ttf" />
 	  <None Remove="Resources\Images\acronis_logo.png" />
 	  <None Remove="Resources\Images\bell.png" />
 	  <None Remove="Resources\Images\bhamburger.svg" />
@@ -69,6 +78,7 @@
 	  <None Remove="Resources\Images\green_clock.svg" />
 	  <None Remove="Resources\Images\orange_bell.svg" />
 	  <None Remove="Resources\Images\orange_clock.svg" />
+	  <None Remove="Resources\Images\pause_circle.svg" />
 	  <None Remove="Resources\Images\right_arrow.svg" />
 	  <None Remove="Resources\Images\search.svg" />
 	  <None Remove="Resources\Images\signout.png" />

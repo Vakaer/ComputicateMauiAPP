@@ -1,0 +1,1 @@
+C:\Users\DevHouse\Documents\GitHub\ComputicateMauiAPP\ComputicateMobileAPP\ComputicateMobileAPP\ComputicateMobileAPP.csproj;x64

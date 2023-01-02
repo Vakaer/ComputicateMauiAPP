@@ -14,9 +14,10 @@ public static class MauiProgram
 			.UseMauiCommunityToolkitMarkup()
 			.ConfigureFonts(fonts =>
 			{
-				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
-				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
-			});
+				fonts.AddFont("Inter-Regular.ttf", "InterRegular");
+				fonts.AddFont("Inter-Bold.ttf", "InterBold");
+                fonts.AddFont("Inter-Medium.ttf", "InterMedium");
+            });
 
 		return builder.Build();
 	}

@@ -17,7 +17,7 @@
             <Setter Property="TextColor" Value="White" />
             <Setter Property="Padding" Value="0,0,0,0"/>
         </Style>-->
-        <Style x:Key="ServiceDeskPageStyle" TargetType="Element">
+        <Style x:Key="WhitePageBar" TargetType="Element">
             <Setter Property="Shell.BackgroundColor" Value="White" />
             <Setter Property="Shell.TitleColor" Value="Black" />
         </Style>
@@ -47,6 +47,7 @@
                     Grid.Column="1"
                     FontAttributes="Bold"
                     FontSize="14"
+                    Style="{StaticResource FontRegular}"
                     Text="{Binding Title}"
                     TextColor="White" />
             </Grid>
@@ -98,7 +99,7 @@
         <ShellContent
             ContentTemplate="{DataTemplate Views:DeskService}"
             Route="deskService"
-            Style="{StaticResource ServiceDeskPageStyle}" />
+            Style="{StaticResource WhitePageBar}" />
     </FlyoutItem>
     <FlyoutItem
         Title="Time Entries"
@@ -109,12 +110,15 @@
             ContentTemplate="{DataTemplate Views:TimeEntries}"
             FlyoutIcon="bhamburger.svg"
             Route="timeEntries"
-            Style="{StaticResource TimeEntriesPageStyle}" />
+            Style="{StaticResource WhitePageBar}" />
 
     </FlyoutItem>
     <FlyoutItem Title="Create Ticket" Icon="ticket.png">
 
-        <ShellContent ContentTemplate="{DataTemplate Views:CreateTicket}" Route="createTicket" />
+        <ShellContent
+            ContentTemplate="{DataTemplate Views:CreateTicket}"
+            Route="createTicket"
+            Style="{StaticResource WhitePageBar}" />
 
     </FlyoutItem>
 

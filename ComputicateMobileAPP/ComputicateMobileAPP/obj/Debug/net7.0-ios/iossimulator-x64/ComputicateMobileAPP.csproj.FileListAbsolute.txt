@@ -315,3 +315,6 @@ C:\Users\DevHouse\Documents\GitHub\ComputicateMauiAPP\ComputicateMobileAPP\Compu
 C:\Users\DevHouse\Documents\GitHub\ComputicateMauiAPP\ComputicateMobileAPP\ComputicateMobileAPP\obj\Debug\net7.0-ios\iossimulator-x64\ComputicateMobileAPP.pdb
 C:\Users\DevHouse\Documents\GitHub\ComputicateMauiAPP\ComputicateMobileAPP\ComputicateMobileAPP\obj\Debug\net7.0-ios\iossimulator-x64\ComputicateMobileAPP.genruntimeconfig.cache
 C:\Users\DevHouse\Documents\GitHub\ComputicateMauiAPP\ComputicateMobileAPP\ComputicateMobileAPP\obj\Debug\net7.0-ios\iossimulator-x64\ref\ComputicateMobileAPP.dll
+C:\Users\DevHouse\Documents\GitHub\ComputicateMauiAPP\ComputicateMobileAPP\ComputicateMobileAPP\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\r\pause_circle.png
+C:\Users\DevHouse\Documents\GitHub\ComputicateMauiAPP\ComputicateMobileAPP\ComputicateMobileAPP\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\r\pause_circle@2x.png
+C:\Users\DevHouse\Documents\GitHub\ComputicateMauiAPP\ComputicateMobileAPP\ComputicateMobileAPP\obj\Debug\net7.0-ios\iossimulator-x64\resizetizer\r\pause_circle@3x.png

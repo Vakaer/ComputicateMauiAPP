@@ -1,5 +1,7 @@
 ﻿using CommunityToolkit.Maui;
 using CommunityToolkit.Maui.Markup;
+using ComputicateMobileAPP.ViewModel;
+using ComputicateMobileAPP.Views;
 
 namespace ComputicateMobileAPP;
 
@@ -8,7 +10,14 @@ public static class MauiProgram
 	public static MauiApp CreateMauiApp()
 	{
 		var builder = MauiApp.CreateBuilder();
-		builder
+
+        builder.Services.AddSingleton<AppShell>();
+        //resolving services for Method-1
+        builder.Services.AddTransient<DashboardPage>();
+        builder.Services.AddTransient<TimeEntriesPage>();
+        builder.Services.AddSingleton<TimeEntriesVM>();
+
+        builder
 			.UseMauiApp<App>()
 			.UseMauiCommunityToolkit()
 			.UseMauiCommunityToolkitMarkup()
@@ -18,6 +27,8 @@ public static class MauiProgram
 				fonts.AddFont("Inter-Bold.ttf", "InterBold");
                 fonts.AddFont("Inter-Medium.ttf", "InterMedium");
             });
+
+
 
 		return builder.Build();
 	}

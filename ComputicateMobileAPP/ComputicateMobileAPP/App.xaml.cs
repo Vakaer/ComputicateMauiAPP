@@ -1,11 +1,14 @@
-﻿namespace ComputicateMobileAPP;
+﻿using ComputicateMobileAPP.Views;
+
+namespace ComputicateMobileAPP;
 
 public partial class App : Application
 {
-	public App()
+	public App(AppShell shell)
 	{
 		InitializeComponent();
 
-		MainPage = new AppShell();
-	}
+        MainPage = shell;
+        //MainPage = new NavigationPage(new Dashboard());
+    }
 }

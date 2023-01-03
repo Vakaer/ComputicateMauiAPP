@@ -90,14 +90,14 @@
     </Shell.FlyoutFooter>
 
     <FlyoutItem Title="Dashboard" Icon="dashboard.png">
-        <ShellContent ContentTemplate="{DataTemplate Views:Dashboard}" Route="Homepage" />
+        <ShellContent ContentTemplate="{DataTemplate Views:DashboardPage}" Route="Homepage" />
     </FlyoutItem>
     <FlyoutItem
         Title="Desk Service"
         FlyoutIcon="bhamburger.svg"
         Icon="desk.png">
         <ShellContent
-            ContentTemplate="{DataTemplate Views:DeskService}"
+            ContentTemplate="{DataTemplate Views:DeskServicePage}"
             Route="deskService"
             Style="{StaticResource WhitePageBar}" />
     </FlyoutItem>
@@ -107,7 +107,7 @@
         Icon="clock.png">
 
         <ShellContent
-            ContentTemplate="{DataTemplate Views:TimeEntries}"
+            ContentTemplate="{DataTemplate Views:TimeEntriesPage}"
             FlyoutIcon="bhamburger.svg"
             Route="timeEntries"
             Style="{StaticResource WhitePageBar}" />
@@ -116,7 +116,7 @@
     <FlyoutItem Title="Create Ticket" Icon="ticket.png">
 
         <ShellContent
-            ContentTemplate="{DataTemplate Views:CreateTicket}"
+            ContentTemplate="{DataTemplate Views:CreateTicketPage}"
             Route="createTicket"
             Style="{StaticResource WhitePageBar}" />
 

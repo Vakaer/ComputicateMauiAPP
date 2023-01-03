@@ -14,16 +14,19 @@
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
   </PropertyGroup>
   <ItemGroup>
-    <MauiXaml Update="Views\CreateTicket.xaml">
+    <MauiXaml Update="Views\CreateTicketPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Views\Dashboard.xaml">
+    <MauiXaml Update="Views\DashboardPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Views\DeskService.xaml">
+    <MauiXaml Update="Views\DeskServicePage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="Views\TimeEntries.xaml">
+    <MauiXaml Update="Views\TimeEntriesNotificationPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Views\TimeEntriesPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
   </ItemGroup>

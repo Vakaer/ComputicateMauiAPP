@@ -72,7 +72,9 @@
 	  <None Remove="Resources\Images\blue_bell.svg" />
 	  <None Remove="Resources\Images\clock.png" />
 	  <None Remove="Resources\Images\dashboard.png" />
+	  <None Remove="Resources\Images\delete.svg" />
 	  <None Remove="Resources\Images\desk.png" />
+	  <None Remove="Resources\Images\done.svg" />
 	  <None Remove="Resources\Images\filter.svg" />
 	  <None Remove="Resources\Images\green_bell.svg" />
 	  <None Remove="Resources\Images\green_clock.svg" />
@@ -92,22 +94,34 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Update="Views\Dashboard.xaml.cs">
-	    <DependentUpon>Dashboard.xaml</DependentUpon>
+	  <Compile Update="Views\CreateTicketPage.xaml.cs">
+	    <DependentUpon>CreateTicketPage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\DashboardPage.xaml.cs">
+	    <DependentUpon>DashboardPage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\DeskServicePage.xaml.cs">
+	    <DependentUpon>DeskServicePage.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Views\TimeEntriesPage.xaml.cs">
+	    <DependentUpon>TimeEntriesPage.xaml</DependentUpon>
 	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="Views\CreateTicket.xaml">
+	  <MauiXaml Update="Views\CreateTicketPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\Dashboard.xaml">
+	  <MauiXaml Update="Views\DashboardPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\DeskService.xaml">
+	  <MauiXaml Update="Views\DeskServicePage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Views\TimeEntries.xaml">
+	  <MauiXaml Update="Views\TimeEntriesNotificationPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\TimeEntriesPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

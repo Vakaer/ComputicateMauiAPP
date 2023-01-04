@@ -66,31 +66,34 @@
 	  <None Remove="Resources\Fonts\Inter-Regular.ttf" />
 	  <None Remove="Resources\Fonts\Inter-SemiBold.ttf" />
 	  <None Remove="Resources\Fonts\Inter-Thin.ttf" />
-	  <None Remove="Resources\Images\acronis_logo.png" />
-	  <None Remove="Resources\Images\bell.png" />
 	  <None Remove="Resources\Images\bhamburger.svg" />
 	  <None Remove="Resources\Images\blue_bell.svg" />
-	  <None Remove="Resources\Images\clock.png" />
-	  <None Remove="Resources\Images\dashboard.png" />
+	  <None Remove="Resources\Images\calendar.svg" />
+	  <None Remove="Resources\Images\dashboard.svg" />
 	  <None Remove="Resources\Images\delete.svg" />
 	  <None Remove="Resources\Images\desk.png" />
 	  <None Remove="Resources\Images\done.svg" />
 	  <None Remove="Resources\Images\filter.svg" />
 	  <None Remove="Resources\Images\green_bell.svg" />
 	  <None Remove="Resources\Images\green_clock.svg" />
+	  <None Remove="Resources\Images\logo.svg" />
 	  <None Remove="Resources\Images\orange_bell.svg" />
 	  <None Remove="Resources\Images\orange_clock.svg" />
 	  <None Remove="Resources\Images\pause_circle.svg" />
 	  <None Remove="Resources\Images\right_arrow.svg" />
 	  <None Remove="Resources\Images\search.svg" />
-	  <None Remove="Resources\Images\signout.png" />
+	  <None Remove="Resources\Images\servicedesk.svg" />
+	  <None Remove="Resources\Images\signout.svg" />
 	  <None Remove="Resources\Images\ticket.png" />
+	  <None Remove="Resources\Images\ticket.svg" />
 	  <None Remove="Resources\Images\up_arrow.svg" />
+	  <None Remove="Resources\Images\whiteclock.svg" />
 	</ItemGroup>
 
 	<ItemGroup>
 	  <PackageReference Include="CommunityToolkit.Maui" Version="3.1.0" />
 	  <PackageReference Include="CommunityToolkit.Maui.Markup" Version="2.1.0" />
+	  <PackageReference Include="CustomSheets" Version="1.0.6" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -109,6 +112,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="Views\AddTimeRegistrationPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Views\CreateTicketPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

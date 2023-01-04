@@ -2,6 +2,7 @@
 using CommunityToolkit.Maui.Markup;
 using ComputicateMobileAPP.ViewModel;
 using ComputicateMobileAPP.Views;
+using Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific;
 
 namespace ComputicateMobileAPP;
 
@@ -27,9 +28,9 @@ public static class MauiProgram
 				fonts.AddFont("Inter-Bold.ttf", "InterBold");
                 fonts.AddFont("Inter-Medium.ttf", "InterMedium");
             });
+        
 
 
-
-		return builder.Build();
+        return builder.Build();
 	}
 }

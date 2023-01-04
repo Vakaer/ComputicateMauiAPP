@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="ComputicateMobileAPP.Views.AddTimeRegistrationPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:controls="clr-namespace:ComputicateMobileAPP.Controls">
+
+    <Shell.TitleView>
+        <Grid>
+            <Label
+                Grid.Column="0"
+                FontFamily="InterMedium"
+                FontSize="18"
+                HorizontalTextAlignment="Start"
+                Text="Add Time Registration"
+                VerticalTextAlignment="Center" />
+        </Grid>
+    </Shell.TitleView>
+
+    <!--  Style  Resources  -->
+    <ContentPage.Resources>
+        <Style TargetType="Label">
+            <Setter Property="VerticalTextAlignment" Value="Center" />
+            <Setter Property="HorizontalTextAlignment" Value="Center" />
+            <Setter Property="FontSize" Value="14" />
+        </Style>
+        <Style TargetType="Frame">
+            <Setter Property="BorderColor" Value="Transparent" />
+            <Setter Property="HasShadow" Value="False" />
+            <Setter Property="IsClippedToBounds" Value="True" />
+            <Setter Property="VerticalOptions" Value="Center" />
+            <Setter Property="CornerRadius" Value="8" />
+            <Setter Property="Margin" Value="0" />
+        </Style>
+        <Style x:Key="ParentFrameBg" TargetType="Frame">
+            <Setter Property="Background" Value=" #E9E9EA" />
+            <Setter Property="BorderColor" Value="Transparent" />
+        </Style>
+        <Style x:Key="FrameButtons" TargetType="Frame">
+            <Setter Property="Margin" Value="2,0,0,0" />
+            <Setter Property="Padding" Value="16,2" />
+            <Setter Property="BorderColor" Value="Transparent" />
+        </Style>
+        <Style x:Key="FormLabel" TargetType="Label">
+            <Setter Property="Background" Value="transparent" />
+            <Setter Property="FontFamily" Value="InterMedium" />
+            <Setter Property="Opacity" Value="0.7" />
+            <Setter Property="HorizontalTextAlignment" Value="Start" />
+            <Setter Property="FontSize" Value="12" />
+            <Setter Property="TextColor" Value="#243143" />
+
+        </Style>
+        <Style x:Key="LabelFrame" TargetType="Border">
+            <Setter Property="Stroke" Value="#4D2668C5" />
+            <Setter Property="Margin" Value="0" />
+            <Setter Property="StrokeShape" Value="RoundRectangle 8,8,8,8" />
+            <Setter Property="Background" Value="white" />
+            <Setter Property="Padding" Value="16,0" />
+        </Style>
+        <Style x:Key="FormEntry" TargetType="Entry">
+            <Setter Property="Margin" Value="-5,-10" />
+            <Setter Property="BackgroundColor" Value="Transparent" />
+            <Setter Property="TextColor" Value="Black" />
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="PlaceholderColor" Value="Black" />
+            <Setter Property="FontFamily" Value="InterRegular" />
+        </Style>
+        <Style x:Key="FormPicker" TargetType="Picker">
+            <Setter Property="Margin" Value="-5,-10" />
+            <Setter Property="BackgroundColor" Value="Transparent" />
+            <Setter Property="TitleColor" Value="Black" />
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="FontFamily" Value="InterRegular" />
+        </Style>
+    </ContentPage.Resources>
+
+    <ScrollView>
+        <StackLayout>
+            <Line
+                Margin="0,10"
+                BackgroundColor="#1A093470"
+                HeightRequest="1" />
+            <Grid
+                Margin="30,15"
+                Padding="0"
+                ColumnDefinitions="*,*"
+                ColumnSpacing="5"
+                RowDefinitions="48,48,48,48,48,48,48,48,77"
+                RowSpacing="20">
+
+                <Border
+                    Grid.Row="0"
+                    Grid.ColumnSpan="2"
+                    Style="{StaticResource LabelFrame}">
+                    <StackLayout>
+                        <Label Style="{StaticResource FormLabel}" Text="Person" />
+                        <Entry Placeholder="Computicate Trial" Style="{StaticResource FormEntry}" />
+                    </StackLayout>
+                </Border>
+
+                <Border
+                    Grid.Row="1"
+                    Grid.ColumnSpan="2"
+                    Style="{StaticResource LabelFrame}">
+                    <StackLayout>
+                        <Label Style="{StaticResource FormLabel}" Text="End-User" />
+                        <Entry Placeholder="Olivia Brewer" Style="{StaticResource FormEntry}" />
+                    </StackLayout>
+                </Border>
+
+                <Border
+                    Grid.Row="2"
+                    Grid.ColumnSpan="2"
+                    Style="{StaticResource LabelFrame}">
+                    <Grid ColumnDefinitions="Auto,*" RowDefinitions="*,*">
+                        <Label
+                            Grid.Row="0"
+                            Grid.Column="0"
+                            Style="{StaticResource FormLabel}"
+                            Text="Activity" />
+                        <Picker
+                            x:Name="picker"
+                            Title="Select Activity"
+                            Grid.Row="1"
+                            Style="{StaticResource FormPicker}">
+                            <Picker.Items>
+                                <x:String>Activity 1</x:String>
+                                <x:String>Activity 2</x:String>
+                                <x:String>Activity 3</x:String>
+                            </Picker.Items>
+                        </Picker>
+                        <Image
+                            Grid.RowSpan="2"
+                            Grid.Column="1"
+                            HeightRequest="20"
+                            HorizontalOptions="End"
+                            Rotation="90"
+                            Source="up_arrow.svg"
+                            WidthRequest="15" />
+                    </Grid>
+                </Border>
+
+                <Border
+                    Grid.Row="3"
+                    Grid.ColumnSpan="2"
+                    Style="{StaticResource LabelFrame}">
+                    <Grid ColumnDefinitions="Auto,*" RowDefinitions="*,*">
+                        <Label
+                            Grid.Row="0"
+                            Grid.Column="0"
+                            Style="{StaticResource FormLabel}"
+                            Text="Customer (Company)" />
+                        <Picker
+                            x:Name="Customerpicker"
+                            Title="Find customer Company"
+                            Grid.Row="1"
+                            Style="{StaticResource FormPicker}">
+                            <Picker.Items>
+                                <x:String>Company 1</x:String>
+                                <x:String>Company 2</x:String>
+                                <x:String>Company 3</x:String>
+                            </Picker.Items>
+                        </Picker>
+
+                        <Image
+                            Grid.RowSpan="2"
+                            Grid.Column="1"
+                            HeightRequest="20"
+                            HorizontalOptions="End"
+                            Rotation="90"
+                            Source="up_arrow.svg"
+                            WidthRequest="15" />
+                    </Grid>
+                </Border>
+
+                <Border
+                    Grid.Row="4"
+                    Grid.ColumnSpan="2"
+                    Style="{StaticResource LabelFrame}">
+                    <Grid ColumnDefinitions="Auto,*" RowDefinitions="*,*">
+                        <Label
+                            Grid.Row="0"
+                            Grid.Column="0"
+                            Style="{StaticResource FormLabel}"
+                            Text="Business Unit" />
+                        <Picker
+                            x:Name="BusinessUnitpicker"
+                            Title="Purchasing"
+                            Grid.Row="1"
+                            Style="{StaticResource FormPicker}">
+                            <Picker.Items>
+                                <x:String>Purchasing 1</x:String>
+                                <x:String>Purchasing 2</x:String>
+                                <x:String>Purchasing 3</x:String>
+                            </Picker.Items>
+                        </Picker>
+
+                        <Image
+                            Grid.RowSpan="2"
+                            Grid.Column="1"
+                            HeightRequest="20"
+                            HorizontalOptions="End"
+                            Rotation="90"
+                            Source="up_arrow.svg"
+                            WidthRequest="15" />
+                    </Grid>
+                </Border>
+
+                <Border
+                    Grid.Row="5"
+                    Grid.ColumnSpan="2"
+                    Style="{StaticResource LabelFrame}">
+                    <Grid ColumnDefinitions="Auto,*" RowDefinitions="*,*">
+                        <Label
+                            Grid.Row="0"
+                            Grid.Column="0"
+                            Style="{StaticResource FormLabel}"
+                            Text="Project" />
+                        <Picker
+                            x:Name="Projectpicker"
+                            Title="Select Project"
+                            Grid.Row="1"
+                            Style="{StaticResource FormPicker}">
+                            <Picker.Items>
+                                <x:String>Project 1</x:String>
+                                <x:String>Project 2</x:String>
+                                <x:String>Project 3</x:String>
+                            </Picker.Items>
+                        </Picker>
+                        <Image
+                            Grid.RowSpan="2"
+                            Grid.Column="1"
+                            HeightRequest="20"
+                            HorizontalOptions="End"
+                            Rotation="90"
+                            Source="up_arrow.svg"
+                            WidthRequest="15" />
+                    </Grid>
+                </Border>
+
+                <Border
+                    Grid.Row="6"
+                    Grid.ColumnSpan="2"
+                    Style="{StaticResource LabelFrame}">
+                    <Grid ColumnDefinitions="Auto,*" RowDefinitions="*,*">
+                        <Label
+                            Grid.Row="0"
+                            Grid.Column="0"
+                            Style="{StaticResource FormLabel}"
+                            Text="Date" />
+                        <controls:DatePickerControl
+                            x:Name="datepicker"
+                            Grid.Row="1"
+                            PlaceHolderColor="#000000"
+                            Placeholder="Select Date" />
+                        <!--<Entry
+                            Grid.Row="1"
+                            Grid.Column="0"
+                            Placeholder="Select Date"
+                            Style="{StaticResource FormEntry}" />-->
+                        <Image
+                            Grid.RowSpan="2"
+                            Grid.Column="1"
+                            HeightRequest="20"
+                            HorizontalOptions="End"
+                            Rotation="90"
+                            Source="up_arrow.svg"
+                            WidthRequest="15" />
+                    </Grid>
+                </Border>
+
+                <Border
+                    Grid.Row="7"
+                    Grid.Column="0"
+                    Style="{StaticResource LabelFrame}">
+                    <Grid RowDefinitions="*,*">
+                        <Label
+                            Grid.Row="0"
+                            Grid.Column="0"
+                            Style="{StaticResource FormLabel}"
+                            Text="Hrs" />
+                        <Entry
+                            Grid.Row="1"
+                            Grid.Column="0"
+                            Placeholder="00"
+                            Style="{StaticResource FormEntry}" />
+
+                    </Grid>
+                </Border>
+
+                <Border
+                    Grid.Row="7"
+                    Grid.Column="1"
+                    Style="{StaticResource LabelFrame}">
+                    <Grid RowDefinitions="*,*">
+                        <Label
+                            Grid.Row="0"
+                            Grid.Column="0"
+                            Style="{StaticResource FormLabel}"
+                            Text="Min" />
+                        <Entry
+                            Grid.Row="1"
+                            Grid.Column="0"
+                            Placeholder="00"
+                            Style="{StaticResource FormEntry}" />
+
+                    </Grid>
+                </Border>
+
+                <Border
+                    Grid.Row="8"
+                    Grid.ColumnSpan="2"
+                    HeightRequest="77"
+                    Style="{StaticResource LabelFrame}">
+                    <Grid ColumnDefinitions="Auto,*" RowDefinitions="*,*">
+                        <Label
+                            Grid.Row="0"
+                            Grid.Column="0"
+                            Style="{StaticResource FormLabel}"
+                            Text="Description" />
+                        <Editor
+                            Grid.Row="1"
+                            Grid.Column="0"
+                            Style="{StaticResource FormEntry}" />
+                    </Grid>
+                </Border>
+            </Grid>
+
+            <Button
+                Grid.Row="1"
+                Margin="24,-10,24,10"
+                BackgroundColor="#2668C5"
+                Text="Save time Registration" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

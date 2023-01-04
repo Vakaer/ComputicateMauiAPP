@@ -3,327 +3,328 @@
     x:Class="ComputicateMobileAPP.Views.DeskServicePage"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:mct="clr-namespace:CommunityToolkit.Maui.Behaviors;assembly=CommunityToolkit.Maui"
-    Title="DeskService">
+    xmlns:mct="clr-namespace:CommunityToolkit.Maui.Behaviors;assembly=CommunityToolkit.Maui">
     <ContentPage.Behaviors>
         <mct:StatusBarBehavior StatusBarColor="White" StatusBarStyle="DarkContent" />
     </ContentPage.Behaviors>
+    <Shell.TitleView>
+        <Grid>
+            <Label
+                Grid.Column="0"
+                FontFamily="InterMedium"
+                FontSize="18"
+                HorizontalTextAlignment="Start"
+                Text="Servicedesk"
+                VerticalTextAlignment="Center" />
+        </Grid>
+    </Shell.TitleView>
     <ContentPage.ToolbarItems>
         <ToolbarItem IconImageSource="search.svg" Text="Search" />
         <ToolbarItem IconImageSource="filter.svg" Text="Filters" />
         <ToolbarItem IconImageSource="blue_bell.svg" Text="notifications" />
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
-        <ScrollView Margin="20" Padding="0">
-            <StackLayout Orientation="Vertical" Spacing="16">
-                <Frame
-                    Margin="0"
-                    Padding="14"
-                    BackgroundColor="#E9F0F9"
-                    BorderColor="Transparent"
-                    HasShadow="False"
-                    HeightRequest="217"
-                    IsClippedToBounds="True"
-                    WidthRequest="328">
-                    <Grid
-                        Margin="0"
-                        Padding="0"
-                        ColumnDefinitions="Auto"
-                        ColumnSpacing="0"
-                        RowDefinitions="32,36,30,41"
-                        RowSpacing="18">
-                        <Grid
-                            Grid.Row="0"
-                            Grid.Column="0"
-                            ColumnDefinitions="Auto,Auto"
-                            RowDefinitions="*">
-                            <HorizontalStackLayout Grid.Row="0" Grid.Column="0">
-                                <CheckBox />
-                                <Label
-                                    FontSize="16"
-                                    Text="Laptop Was Stolen"
-                                    VerticalOptions="Center" />
-                            </HorizontalStackLayout>
-                            <HorizontalStackLayout
-                                Grid.Row="0"
-                                Grid.Column="1"
-                                Margin="100,0,0,0">
-                                <Image Aspect="AspectFit" Source="right_arrow.svg" />
-                            </HorizontalStackLayout>
-                        </Grid>
-                        <VerticalStackLayout Grid.Row="1">
-                            <Label
-                                FontSize="12"
-                                Text="Jhon Adams"
-                                TextColor="Black" />
-                            <Label
-                                FontSize="12"
-                                Text="Just Right Tax Advisor"
-                                TextColor="#677383" />
+        <ScrollView Margin="0" Padding="0">
+            <StackLayout>
+                <VerticalStackLayout>
+                    <Line
+                        Margin="0,10"
+                        BackgroundColor="#1A093470"
+                        HeightRequest="1" />
+                </VerticalStackLayout>
+                <VerticalStackLayout Margin="16,5" Spacing="16">
 
-                        </VerticalStackLayout>
-                        <Frame
-                            Grid.Row="2"
-                            Margin="0"
-                            Padding="0"
-                            BackgroundColor="#FEEDD9"
-                            BorderColor="Transparent"
-                            HasShadow="False"
-                            IsClippedToBounds="True">
+                    <Border
+                        Margin="0"
+                        Padding="14"
+                        BackgroundColor="#E9F0F9"
+                        HeightRequest="217"
+                        StrokeShape="RoundRectangle 8,8,8,8"
+                        StrokeThickness="0">
+                        <Grid
+                            ColumnDefinitions="Auto,*"
+                            RowDefinitions="32,36,30,41"
+                            RowSpacing="18">
                             <Grid
-                                Grid.Row="2"
-                                ColumnDefinitions="Auto,Auto"
-                                ColumnSpacing="50"
-                                HorizontalOptions="Center"
-                                RowDefinitions="Auto"
-                                VerticalOptions="Center">
+                                Grid.Row="0"
+                                Grid.Column="0"
+                                ColumnDefinitions="Auto"
+                                RowDefinitions="*">
                                 <HorizontalStackLayout
                                     Grid.Row="0"
                                     Grid.Column="0"
-                                    HorizontalOptions="Center"
-                                    Spacing="5">
-                                    <Image Aspect="AspectFit" Source="orange_bell.svg" />
+                                    Spacing="10">
+                                    <CheckBox />
                                     <Label
-                                        FontSize="10"
-                                        Text="In Progress"
-                                        VerticalOptions="Center" />
-                                </HorizontalStackLayout>
-                                <HorizontalStackLayout
-                                    Grid.Row="0"
-                                    Grid.Column="1"
-                                    HorizontalOptions="Center"
-                                    Spacing="5">
-                                    <Image Aspect="AspectFit" Source="orange_clock.svg" />
-                                    <Label
-                                        FontSize="10"
-                                        Text="Time Spent:"
-                                        VerticalOptions="Center" />
-                                    <Label
-                                        FontSize="10"
-                                        Text="1h 0min"
-                                        TextColor="#677383"
+                                        FontSize="16"
+                                        Text="Workstation Crashes"
                                         VerticalOptions="Center" />
                                 </HorizontalStackLayout>
                             </Grid>
-                        </Frame>
-                        <StackLayout Grid.Row="3" Orientation="Vertical">
-                            <Label
-                                FontSize="12"
-                                Text="24/7 - All-in"
-                                TextColor="#677383" />
-                            <Label
-                                FontSize="12"
-                                Text="1 User Cannot work"
-                                TextColor="#677383" />
-                        </StackLayout>
-                    </Grid>
-                </Frame>
-                <Frame
-                    Margin="0"
-                    Padding="14"
-                    BackgroundColor="#E9F0F9"
-                    BorderColor="Transparent"
-                    HasShadow="False"
-                    HeightRequest="217"
-                    IsClippedToBounds="True"
-                    WidthRequest="328">
-                    <Grid
-                        Margin="0"
-                        Padding="0"
-                        ColumnDefinitions="Auto"
-                        ColumnSpacing="0"
-                        RowDefinitions="32,36,30,41"
-                        RowSpacing="18">
-                        <Grid
-                            Grid.Row="0"
-                            Grid.Column="0"
-                            ColumnDefinitions="Auto,Auto"
-                            RowDefinitions="*">
-                            <HorizontalStackLayout Grid.Row="0" Grid.Column="0">
-                                <CheckBox />
+                            <HorizontalStackLayout Grid.Column="1" HorizontalOptions="End">
+                                <Image Rotation="90" Source="up_arrow.svg" />
+                            </HorizontalStackLayout>
+                            <VerticalStackLayout Grid.Row="1">
                                 <Label
-                                    FontSize="16"
-                                    Text="Laptop Was Stolen"
-                                    VerticalOptions="Center" />
-                            </HorizontalStackLayout>
-                            <HorizontalStackLayout
-                                Grid.Row="0"
-                                Grid.Column="1"
-                                Margin="100,0,0,0">
-                                <Image Aspect="AspectFit" Source="right_arrow.svg" />
-                            </HorizontalStackLayout>
-                        </Grid>
-                        <VerticalStackLayout Grid.Row="1">
-                            <Label
-                                FontSize="12"
-                                Text="Jhon Adams"
-                                TextColor="Black" />
-                            <Label
-                                FontSize="12"
-                                Text="Just Right Tax Advisor"
-                                TextColor="#677383" />
+                                    FontSize="12"
+                                    Text="Olivia Brewr"
+                                    TextColor="Black" />
+                                <Label
+                                    FontSize="12"
+                                    Text="Royal Bank of Scotland, 20160929-4 "
+                                    TextColor="#677383" />
 
-                        </VerticalStackLayout>
-                        <Frame
-                            Grid.Row="2"
-                            Margin="0"
-                            Padding="0"
-                            BackgroundColor="#FEEDD9"
-                            BorderColor="Transparent"
-                            HasShadow="False"
-                            IsClippedToBounds="True">
-                            <Grid
+                            </VerticalStackLayout>
+                            <Border
                                 Grid.Row="2"
-                                ColumnDefinitions="Auto,Auto"
-                                ColumnSpacing="50"
-                                HorizontalOptions="Center"
-                                RowDefinitions="Auto"
-                                VerticalOptions="Center">
+                                Grid.ColumnSpan="2"
+                                Margin="0"
+                                Padding="0"
+                                BackgroundColor="#F5F9E9"
+                                StrokeThickness="0">
+                                <Grid
+                                    Grid.Row="2"
+                                    ColumnDefinitions="Auto,Auto"
+                                    ColumnSpacing="50"
+                                    HorizontalOptions="Center"
+                                    RowDefinitions="Auto"
+                                    VerticalOptions="Center">
+                                    <HorizontalStackLayout
+                                        Grid.Row="0"
+                                        Grid.Column="0"
+                                        HorizontalOptions="Center"
+                                        Spacing="5">
+                                        <Image Aspect="AspectFit" Source="green_bell.svg" />
+                                        <Label
+                                            FontSize="10"
+                                            Text="Activities Scheduled"
+                                            VerticalOptions="Center" />
+                                    </HorizontalStackLayout>
+                                    <HorizontalStackLayout
+                                        Grid.Row="0"
+                                        Grid.Column="1"
+                                        HorizontalOptions="Center"
+                                        Spacing="5">
+                                        <Image Aspect="AspectFit" Source="green_clock.svg" />
+                                        <Label
+                                            FontSize="10"
+                                            Text="Time Spent:"
+                                            VerticalOptions="Center" />
+                                        <Label
+                                            FontSize="10"
+                                            Text="1h 0min"
+                                            TextColor="#677383"
+                                            VerticalOptions="Center" />
+                                    </HorizontalStackLayout>
+                                </Grid>
+                            </Border>
+                            <StackLayout Grid.Row="3" Orientation="Vertical">
+                                <Label
+                                    FontSize="12"
+                                    Text="24/7 - All-in"
+                                    TextColor="#677383" />
+                                <Label
+                                    FontSize="12"
+                                    Text="1 User Cannot work - Workaround created SLA"
+                                    TextColor="#677383" />
+                            </StackLayout>
+                        </Grid>
+                    </Border>
+                    <Border
+                        Margin="0"
+                        Padding="14"
+                        BackgroundColor="#E9F0F9"
+                        HeightRequest="217"
+                        StrokeShape="RoundRectangle 8,8,8,8"
+                        StrokeThickness="0">
+                        <Grid
+                            ColumnDefinitions="Auto,*"
+                            RowDefinitions="32,36,30,41"
+                            RowSpacing="18">
+                            <Grid
+                                Grid.Row="0"
+                                Grid.Column="0"
+                                ColumnDefinitions="Auto"
+                                RowDefinitions="*">
                                 <HorizontalStackLayout
                                     Grid.Row="0"
                                     Grid.Column="0"
-                                    HorizontalOptions="Center"
-                                    Spacing="5">
-                                    <Image Aspect="AspectFit" Source="orange_bell.svg" />
+                                    Spacing="10">
+                                    <CheckBox />
                                     <Label
-                                        FontSize="10"
-                                        Text="In Progress"
-                                        VerticalOptions="Center" />
-                                </HorizontalStackLayout>
-                                <HorizontalStackLayout
-                                    Grid.Row="0"
-                                    Grid.Column="1"
-                                    HorizontalOptions="Center"
-                                    Spacing="5">
-                                    <Image Aspect="AspectFit" Source="orange_clock.svg" />
-                                    <Label
-                                        FontSize="10"
-                                        Text="Time Spent:"
-                                        VerticalOptions="Center" />
-                                    <Label
-                                        FontSize="10"
-                                        Text="1h 0min"
-                                        TextColor="#677383"
+                                        FontSize="16"
+                                        Text="Laptop Was Stolen"
                                         VerticalOptions="Center" />
                                 </HorizontalStackLayout>
                             </Grid>
-                        </Frame>
-                        <StackLayout Grid.Row="3" Orientation="Vertical">
-                            <Label
-                                FontSize="12"
-                                Text="24/7 - All-in"
-                                TextColor="#677383" />
-                            <Label
-                                FontSize="12"
-                                Text="1 User Cannot work"
-                                TextColor="#677383" />
-                        </StackLayout>
-                    </Grid>
-                </Frame>
-                <Frame
-                    Margin="0"
-                    Padding="14"
-                    BackgroundColor="#E9F0F9"
-                    BorderColor="Transparent"
-                    HasShadow="False"
-                    HeightRequest="217"
-                    IsClippedToBounds="True"
-                    WidthRequest="328">
-                    <Grid
-                        Margin="0"
-                        Padding="0"
-                        ColumnDefinitions="Auto"
-                        ColumnSpacing="0"
-                        RowDefinitions="32,36,30,41"
-                        RowSpacing="18">
-                        <Grid
-                            Grid.Row="0"
-                            Grid.Column="0"
-                            ColumnDefinitions="Auto,Auto"
-                            RowDefinitions="*">
-                            <HorizontalStackLayout Grid.Row="0" Grid.Column="0">
-                                <CheckBox />
+                            <HorizontalStackLayout Grid.Column="1" HorizontalOptions="End">
+                                <Image Rotation="90" Source="up_arrow.svg" />
+                            </HorizontalStackLayout>
+                            <VerticalStackLayout Grid.Row="1">
                                 <Label
-                                    FontSize="16"
-                                    Text="Laptop Was Stolen"
-                                    VerticalOptions="Center" />
-                            </HorizontalStackLayout>
-                            <HorizontalStackLayout
-                                Grid.Row="0"
-                                Grid.Column="1"
-                                Margin="100,0,0,0">
-                                <Image Aspect="AspectFit" Source="right_arrow.svg" />
-                            </HorizontalStackLayout>
-                        </Grid>
-                        <VerticalStackLayout Grid.Row="1">
-                            <Label
-                                FontSize="12"
-                                Text="Jhon Adams"
-                                TextColor="Black" />
-                            <Label
-                                FontSize="12"
-                                Text="Just Right Tax Advisor"
-                                TextColor="#677383" />
+                                    FontSize="12"
+                                    Text="Jhon Adams"
+                                    TextColor="Black" />
+                                <Label
+                                    FontSize="12"
+                                    Text="Just Right Tax Advisor"
+                                    TextColor="#677383" />
 
-                        </VerticalStackLayout>
-                        <Frame
-                            Grid.Row="2"
-                            Margin="0"
-                            Padding="0"
-                            BackgroundColor="#FEEDD9"
-                            BorderColor="Transparent"
-                            HasShadow="False"
-                            IsClippedToBounds="True">
-                            <Grid
+                            </VerticalStackLayout>
+                            <Border
                                 Grid.Row="2"
-                                ColumnDefinitions="Auto,Auto"
-                                ColumnSpacing="50"
-                                HorizontalOptions="Center"
-                                RowDefinitions="Auto"
-                                VerticalOptions="Center">
+                                Grid.ColumnSpan="2"
+                                Margin="0"
+                                Padding="0"
+                                BackgroundColor="#FEEDD9"
+                                StrokeThickness="0">
+                                <Grid
+                                    Grid.Row="2"
+                                    ColumnDefinitions="Auto,Auto"
+                                    ColumnSpacing="50"
+                                    HorizontalOptions="Center"
+                                    RowDefinitions="Auto"
+                                    VerticalOptions="Center">
+                                    <HorizontalStackLayout
+                                        Grid.Row="0"
+                                        Grid.Column="0"
+                                        HorizontalOptions="Center"
+                                        Spacing="5">
+                                        <Image Aspect="AspectFit" Source="orange_bell.svg" />
+                                        <Label
+                                            FontSize="10"
+                                            Text="In Progress"
+                                            VerticalOptions="Center" />
+                                    </HorizontalStackLayout>
+                                    <HorizontalStackLayout
+                                        Grid.Row="0"
+                                        Grid.Column="1"
+                                        HorizontalOptions="Center"
+                                        Spacing="5">
+                                        <Image Aspect="AspectFit" Source="orange_clock.svg" />
+                                        <Label
+                                            FontSize="10"
+                                            Text="Time Spent:"
+                                            VerticalOptions="Center" />
+                                        <Label
+                                            FontSize="10"
+                                            Text="1h 0min"
+                                            TextColor="#677383"
+                                            VerticalOptions="Center" />
+                                    </HorizontalStackLayout>
+                                </Grid>
+                            </Border>
+                            <StackLayout Grid.Row="3" Orientation="Vertical">
+                                <Label
+                                    FontSize="12"
+                                    Text="24/7 - All-in"
+                                    TextColor="#677383" />
+                                <Label
+                                    FontSize="12"
+                                    Text="1 User Cannot work"
+                                    TextColor="#677383" />
+                            </StackLayout>
+                        </Grid>
+                    </Border>
+                    <Border
+                        Margin="0"
+                        Padding="14"
+                        BackgroundColor="#E9F0F9"
+                        HeightRequest="217"
+                        StrokeShape="RoundRectangle 8,8,8,8"
+                        StrokeThickness="0">
+                        <Grid
+                            ColumnDefinitions="Auto,*"
+                            RowDefinitions="32,36,30,41"
+                            RowSpacing="18">
+                            <Grid
+                                Grid.Row="0"
+                                Grid.Column="0"
+                                ColumnDefinitions="Auto"
+                                RowDefinitions="*">
                                 <HorizontalStackLayout
                                     Grid.Row="0"
                                     Grid.Column="0"
-                                    HorizontalOptions="Center"
-                                    Spacing="5">
-                                    <Image Aspect="AspectFit" Source="orange_bell.svg" />
+                                    Spacing="10">
+                                    <CheckBox />
                                     <Label
-                                        FontSize="10"
-                                        Text="In Progress"
-                                        VerticalOptions="Center" />
-                                </HorizontalStackLayout>
-                                <HorizontalStackLayout
-                                    Grid.Row="0"
-                                    Grid.Column="1"
-                                    HorizontalOptions="Center"
-                                    Spacing="5">
-                                    <Image Aspect="AspectFit" Source="orange_clock.svg" />
-                                    <Label
-                                        FontSize="10"
-                                        Text="Time Spent:"
-                                        VerticalOptions="Center" />
-                                    <Label
-                                        FontSize="10"
-                                        Text="1h 0min"
-                                        TextColor="#677383"
+                                        FontSize="16"
+                                        Text="Workstation Crashes"
                                         VerticalOptions="Center" />
                                 </HorizontalStackLayout>
                             </Grid>
-                        </Frame>
-                        <StackLayout Grid.Row="3" Orientation="Vertical">
-                            <Label
-                                FontSize="12"
-                                Text="24/7 - All-in"
-                                TextColor="#677383" />
-                            <Label
-                                FontSize="12"
-                                Text="1 User Cannot work"
-                                TextColor="#677383" />
-                        </StackLayout>
-                    </Grid>
-                </Frame>
+                            <HorizontalStackLayout Grid.Column="1" HorizontalOptions="End">
+                                <Image Rotation="90" Source="up_arrow.svg" />
+                            </HorizontalStackLayout>
+                            <VerticalStackLayout Grid.Row="1">
+                                <Label
+                                    FontSize="12"
+                                    Text="Olivia Brewr"
+                                    TextColor="Black" />
+                                <Label
+                                    FontSize="12"
+                                    Text="Royal Bank of Scotland, 20160929-4 "
+                                    TextColor="#677383" />
+
+                            </VerticalStackLayout>
+                            <Border
+                                Grid.Row="2"
+                                Grid.ColumnSpan="2"
+                                Margin="0"
+                                Padding="0"
+                                BackgroundColor="#F5F9E9"
+                                StrokeThickness="0">
+                                <Grid
+                                    Grid.Row="2"
+                                    ColumnDefinitions="Auto,Auto"
+                                    ColumnSpacing="50"
+                                    HorizontalOptions="Center"
+                                    RowDefinitions="Auto"
+                                    VerticalOptions="Center">
+                                    <HorizontalStackLayout
+                                        Grid.Row="0"
+                                        Grid.Column="0"
+                                        HorizontalOptions="Center"
+                                        Spacing="5">
+                                        <Image Aspect="AspectFit" Source="green_bell.svg" />
+                                        <Label
+                                            FontSize="10"
+                                            Text="Activities Scheduled"
+                                            VerticalOptions="Center" />
+                                    </HorizontalStackLayout>
+                                    <HorizontalStackLayout
+                                        Grid.Row="0"
+                                        Grid.Column="1"
+                                        HorizontalOptions="Center"
+                                        Spacing="5">
+                                        <Image Aspect="AspectFit" Source="green_clock.svg" />
+                                        <Label
+                                            FontSize="10"
+                                            Text="Time Spent:"
+                                            VerticalOptions="Center" />
+                                        <Label
+                                            FontSize="10"
+                                            Text="1h 0min"
+                                            TextColor="#677383"
+                                            VerticalOptions="Center" />
+                                    </HorizontalStackLayout>
+                                </Grid>
+                            </Border>
+                            <StackLayout Grid.Row="3" Orientation="Vertical">
+                                <Label
+                                    FontSize="12"
+                                    Text="24/7 - All-in"
+                                    TextColor="#677383" />
+                                <Label
+                                    FontSize="12"
+                                    Text="1 User Cannot work - Workaround created SLA"
+                                    TextColor="#677383" />
+                            </StackLayout>
+                        </Grid>
+                    </Border>
 
 
+                </VerticalStackLayout>
 
             </StackLayout>
         </ScrollView>

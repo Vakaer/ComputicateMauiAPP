@@ -69,6 +69,10 @@
               "target": "Package",
               "version": "[2.1.0, )"
             },
+            "CustomSheets": {
+              "target": "Package",
+              "version": "[1.0.6, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[7.0.0, )",
@@ -191,6 +195,10 @@
               "target": "Package",
               "version": "[2.1.0, )"
             },
+            "CustomSheets": {
+              "target": "Package",
+              "version": "[1.0.6, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[7.0.0, )",
@@ -257,6 +265,10 @@
             "CommunityToolkit.Maui.Markup": {
               "target": "Package",
               "version": "[2.1.0, )"
+            },
+            "CustomSheets": {
+              "target": "Package",
+              "version": "[1.0.6, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
@@ -325,6 +337,10 @@
             "CommunityToolkit.Maui.Markup": {
               "target": "Package",
               "version": "[2.1.0, )"
+            },
+            "CustomSheets": {
+              "target": "Package",
+              "version": "[1.0.6, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",

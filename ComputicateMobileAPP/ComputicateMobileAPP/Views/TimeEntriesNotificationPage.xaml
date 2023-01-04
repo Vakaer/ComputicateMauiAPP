@@ -18,12 +18,6 @@
                 HorizontalTextAlignment="Start"
                 Text="Notifications"
                 VerticalTextAlignment="Center" />
-            <!--<HorizontalStackLayout
-                Grid.Column="1"
-                Padding="0,0,10,0"
-                HorizontalOptions="End">
-                <Image Source="pause_circle.svg" />
-            </HorizontalStackLayout>-->
         </Grid>
     </Shell.TitleView>
 

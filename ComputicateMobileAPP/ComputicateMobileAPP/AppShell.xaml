@@ -62,10 +62,11 @@
             RowSpacing="40">
             <Image
                 Margin="15,0,0,0"
-                Aspect="AspectFit"
+                HeightRequest="41"
                 HorizontalOptions="Start"
-                Source="acronis_logo.png"
-                VerticalOptions="Start" />
+                Source="logo.svg"
+                VerticalOptions="Start"
+                WidthRequest="110" />
             <Line
                 Grid.Row="1"
                 HeightRequest="20"
@@ -81,7 +82,7 @@
             HorizontalOptions="StartAndExpand"
             Orientation="Horizontal"
             Spacing="10">
-            <Image Aspect="AspectFit" Source="signout.png" />
+            <Image Aspect="AspectFit" Source="signout.svg" />
             <Label
                 FontSize="16"
                 Text="Logout"
@@ -89,13 +90,13 @@
         </StackLayout>
     </Shell.FlyoutFooter>
 
-    <FlyoutItem Title="Dashboard" Icon="dashboard.png">
+    <FlyoutItem Title="Dashboard" Icon="dashboard.svg">
         <ShellContent ContentTemplate="{DataTemplate Views:DashboardPage}" Route="Homepage" />
     </FlyoutItem>
     <FlyoutItem
         Title="Desk Service"
         FlyoutIcon="bhamburger.svg"
-        Icon="desk.png">
+        Icon="servicedesk.svg">
         <ShellContent
             ContentTemplate="{DataTemplate Views:DeskServicePage}"
             Route="deskService"
@@ -103,8 +104,8 @@
     </FlyoutItem>
     <FlyoutItem
         Title="Time Entries"
-        FlyoutIcon="dashboard.png"
-        Icon="clock.png">
+        FlyoutIcon="dashboard.svg"
+        Icon="whiteclock.png">
 
         <ShellContent
             ContentTemplate="{DataTemplate Views:TimeEntriesPage}"
@@ -113,7 +114,7 @@
             Style="{StaticResource WhitePageBar}" />
 
     </FlyoutItem>
-    <FlyoutItem Title="Create Ticket" Icon="ticket.png">
+    <FlyoutItem Title="Create Ticket" Icon="ticket.svg">
 
         <ShellContent
             ContentTemplate="{DataTemplate Views:CreateTicketPage}"

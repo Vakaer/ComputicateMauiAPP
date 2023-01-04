@@ -44,6 +44,19 @@
           }
         }
       },
+      "CustomSheets/1.0.6": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-android31.0/CustomSheets.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/CustomSheets.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -1986,6 +1999,19 @@
         },
         "runtime": {
           "lib/net7.0/CommunityToolkit.Maui.Markup.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CustomSheets/1.0.6": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-android31.0/CustomSheets.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/CustomSheets.dll": {
             "related": ".xml"
           }
         }
@@ -3936,6 +3962,19 @@
           }
         }
       },
+      "CustomSheets/1.0.6": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-android31.0/CustomSheets.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/CustomSheets.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -5878,6 +5917,19 @@
         },
         "runtime": {
           "lib/net7.0/CommunityToolkit.Maui.Markup.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CustomSheets/1.0.6": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-android31.0/CustomSheets.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/CustomSheets.dll": {
             "related": ".xml"
           }
         }
@@ -7828,6 +7880,19 @@
           }
         }
       },
+      "CustomSheets/1.0.6": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-android31.0/CustomSheets.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/CustomSheets.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -9770,6 +9835,19 @@
         },
         "runtime": {
           "lib/net7.0/CommunityToolkit.Maui.Markup.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CustomSheets/1.0.6": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-android31.0/CustomSheets.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/CustomSheets.dll": {
             "related": ".xml"
           }
         }
@@ -11720,6 +11798,19 @@
           }
         }
       },
+      "CustomSheets/1.0.6": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-android31.0/CustomSheets.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/CustomSheets.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "GoogleGson/2.9.1.1": {
         "type": "package",
         "compile": {
@@ -13662,6 +13753,19 @@
         },
         "runtime": {
           "lib/net7.0/CommunityToolkit.Maui.Markup.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CustomSheets/1.0.6": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-android31.0/CustomSheets.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-android31.0/CustomSheets.dll": {
             "related": ".xml"
           }
         }
@@ -15612,6 +15716,18 @@
           }
         }
       },
+      "CustomSheets/1.0.6": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-ios15.4/CustomSheets.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-ios15.4/CustomSheets.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -15770,6 +15886,14 @@
         "runtime": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {
+            "related": ".xml"
           }
         }
       }
@@ -15817,6 +15941,18 @@
           }
         }
       },
+      "CustomSheets/1.0.6": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-ios15.4/CustomSheets.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-ios15.4/CustomSheets.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -15975,6 +16111,14 @@
         "runtime": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {
+            "related": ".xml"
           }
         }
       }
@@ -16022,6 +16166,18 @@
           }
         }
       },
+      "CustomSheets/1.0.6": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-ios15.4/CustomSheets.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-ios15.4/CustomSheets.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -16180,6 +16336,14 @@
         "runtime": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {
+            "related": ".xml"
           }
         }
       }
@@ -16227,6 +16391,18 @@
           }
         }
       },
+      "CustomSheets/1.0.6": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-ios15.4/CustomSheets.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-ios15.4/CustomSheets.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -16385,6 +16561,14 @@
         "runtime": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {
+            "related": ".xml"
           }
         }
       }
@@ -16432,6 +16616,18 @@
           }
         }
       },
+      "CustomSheets/1.0.6": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-ios15.4/CustomSheets.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-ios15.4/CustomSheets.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -16590,6 +16786,14 @@
         "runtime": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {
+            "related": ".xml"
           }
         }
       }
@@ -16637,6 +16841,18 @@
           }
         }
       },
+      "CustomSheets/1.0.6": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-ios15.4/CustomSheets.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-ios15.4/CustomSheets.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -16795,6 +17011,14 @@
         "runtime": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {
+            "related": ".xml"
           }
         }
       }
@@ -16842,6 +17066,18 @@
           }
         }
       },
+      "CustomSheets/1.0.6": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-ios15.4/CustomSheets.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-ios15.4/CustomSheets.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -17000,6 +17236,14 @@
         "runtime": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {
+            "related": ".xml"
           }
         }
       }
@@ -17047,6 +17291,18 @@
           }
         }
       },
+      "CustomSheets/1.0.6": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-ios15.4/CustomSheets.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-ios15.4/CustomSheets.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -17205,6 +17461,14 @@
         "runtime": {
           "lib/net7.0-ios16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {
+            "related": ".xml"
           }
         }
       }
@@ -17252,6 +17516,18 @@
           }
         }
       },
+      "CustomSheets/1.0.6": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst15.4/CustomSheets.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst15.4/CustomSheets.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -17410,6 +17686,14 @@
         "runtime": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {
+            "related": ".xml"
           }
         }
       }
@@ -17457,6 +17741,18 @@
           }
         }
       },
+      "CustomSheets/1.0.6": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst15.4/CustomSheets.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst15.4/CustomSheets.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -17615,6 +17911,14 @@
         "runtime": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {
+            "related": ".xml"
           }
         }
       }
@@ -17662,6 +17966,18 @@
           }
         }
       },
+      "CustomSheets/1.0.6": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst15.4/CustomSheets.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst15.4/CustomSheets.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -17820,6 +18136,14 @@
         "runtime": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {
+            "related": ".xml"
           }
         }
       }
@@ -17867,6 +18191,18 @@
           }
         }
       },
+      "CustomSheets/1.0.6": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst15.4/CustomSheets.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst15.4/CustomSheets.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -18025,6 +18361,14 @@
         "runtime": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {
+            "related": ".xml"
           }
         }
       }
@@ -18072,6 +18416,18 @@
           }
         }
       },
+      "CustomSheets/1.0.6": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst15.4/CustomSheets.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst15.4/CustomSheets.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -18230,6 +18586,14 @@
         "runtime": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {
+            "related": ".xml"
           }
         }
       }
@@ -18277,6 +18641,18 @@
           }
         }
       },
+      "CustomSheets/1.0.6": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst15.4/CustomSheets.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst15.4/CustomSheets.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -18435,6 +18811,14 @@
         "runtime": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {
+            "related": ".xml"
           }
         }
       }
@@ -18482,6 +18866,18 @@
           }
         }
       },
+      "CustomSheets/1.0.6": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst15.4/CustomSheets.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst15.4/CustomSheets.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -18640,6 +19036,14 @@
         "runtime": {
           "lib/net7.0-maccatalyst16.1/Microsoft.Maui.Graphics.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {
+            "related": ".xml"
           }
         }
       }
@@ -18687,6 +19091,18 @@
           }
         }
       },
+      "CustomSheets/1.0.6": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1"
+        },
+        "compile": {
+          "lib/net6.0-maccatalyst15.4/CustomSheets.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-maccatalyst15.4/CustomSheets.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -18847,6 +19263,14 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+        "type": "package",
+        "compile": {
+          "ref/net6.0/System.Runtime.InteropServices.dll": {
+            "related": ".xml"
+          }
+        }
       }
     },
     "net7.0-windows10.0.19041": {
@@ -18890,6 +19314,15 @@
           "lib/net7.0/CommunityToolkit.Maui.Markup.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "CustomSheets/1.0.6": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows10.0.19041/CustomSheets.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041/CustomSheets.dll": {}
         }
       },
       "Microsoft.Extensions.Configuration/7.0.0": {
@@ -19235,6 +19668,15 @@
           }
         }
       },
+      "CustomSheets/1.0.6": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows10.0.19041/CustomSheets.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041/CustomSheets.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -19548,6 +19990,15 @@
           "lib/net7.0/CommunityToolkit.Maui.Markup.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "CustomSheets/1.0.6": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows10.0.19041/CustomSheets.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041/CustomSheets.dll": {}
         }
       },
       "Microsoft.Extensions.Configuration/7.0.0": {
@@ -19865,6 +20316,15 @@
           }
         }
       },
+      "CustomSheets/1.0.6": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows10.0.19041/CustomSheets.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041/CustomSheets.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -20178,6 +20638,15 @@
           "lib/net7.0/CommunityToolkit.Maui.Markup.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "CustomSheets/1.0.6": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows10.0.19041/CustomSheets.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041/CustomSheets.dll": {}
         }
       },
       "Microsoft.Extensions.Configuration/7.0.0": {
@@ -20495,6 +20964,15 @@
           }
         }
       },
+      "CustomSheets/1.0.6": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows10.0.19041/CustomSheets.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041/CustomSheets.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -20810,6 +21288,15 @@
           }
         }
       },
+      "CustomSheets/1.0.6": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows10.0.19041/CustomSheets.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041/CustomSheets.dll": {}
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -21123,6 +21610,15 @@
           "lib/net7.0/CommunityToolkit.Maui.Markup.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "CustomSheets/1.0.6": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows10.0.19041/CustomSheets.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows10.0.19041/CustomSheets.dll": {}
         }
       },
       "Microsoft.Extensions.Configuration/7.0.0": {
@@ -21474,6 +21970,23 @@
         "lib/net7.0/CommunityToolkit.Maui.Markup.dll",
         "lib/net7.0/CommunityToolkit.Maui.Markup.xml",
         "nuget.png"
+      ]
+    },
+    "CustomSheets/1.0.6": {
+      "sha512": "8V5bbngPmQeC5/sq0CewdIMFU7KG1RKxxMPhtZazkbFJ9ATA1Z0ThL1g4emc8sQuHudAHT0I62TzfnOQvYSXqQ==",
+      "type": "package",
+      "path": "customsheets/1.0.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "customsheets.1.0.6.nupkg.sha512",
+        "customsheets.nuspec",
+        "lib/net6.0-android31.0/CustomSheets.dll",
+        "lib/net6.0-android31.0/CustomSheets.xml",
+        "lib/net6.0-ios15.4/CustomSheets.dll",
+        "lib/net6.0-maccatalyst15.4/CustomSheets.dll",
+        "lib/net6.0-windows10.0.19041/CustomSheets.dll",
+        "lib/net6.0/CustomSheets.dll"
       ]
     },
     "GoogleGson/2.9.1.1": {
@@ -22676,6 +23189,23 @@
         "tools/net5.0/zh-TW/Microsoft.Build.Msix.resources.dll",
         "tools/x64/GenXbf.dll",
         "tools/x86/GenXbf.dll"
+      ]
+    },
+    "System.Runtime.InteropServices.NFloat.Internal/6.0.1": {
+      "sha512": "vq+81ZqZz9oHV6iWgGXFnxHAyO5xA73nfvDNu5LwymIK294is5bRo3P063VToAbDRyyc0qq/YFRYjHmiD6Cv8Q==",
+      "type": "package",
+      "path": "system.runtime.interopservices.nfloat.internal/6.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "ref/net6.0/System.Runtime.InteropServices.dll",
+        "ref/net6.0/System.Runtime.InteropServices.xml",
+        "system.runtime.interopservices.nfloat.internal.6.0.1.nupkg.sha512",
+        "system.runtime.interopservices.nfloat.internal.nuspec",
+        "useSharedDesignerContext.txt"
       ]
     },
     "Xamarin.Android.Glide/4.13.2.2": {
@@ -24680,6 +25210,7 @@
     "net7.0-android33.0": [
       "CommunityToolkit.Maui >= 3.1.0",
       "CommunityToolkit.Maui.Markup >= 2.1.0",
+      "CustomSheets >= 1.0.6",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
@@ -24700,6 +25231,7 @@
     "net7.0-ios16.1": [
       "CommunityToolkit.Maui >= 3.1.0",
       "CommunityToolkit.Maui.Markup >= 2.1.0",
+      "CustomSheets >= 1.0.6",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
@@ -24709,6 +25241,7 @@
     "net7.0-maccatalyst16.1": [
       "CommunityToolkit.Maui >= 3.1.0",
       "CommunityToolkit.Maui.Markup >= 2.1.0",
+      "CustomSheets >= 1.0.6",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
@@ -24718,6 +25251,7 @@
     "net7.0-windows10.0.19041": [
       "CommunityToolkit.Maui >= 3.1.0",
       "CommunityToolkit.Maui.Markup >= 2.1.0",
+      "CustomSheets >= 1.0.6",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
@@ -24796,6 +25330,10 @@
           "CommunityToolkit.Maui.Markup": {
             "target": "Package",
             "version": "[2.1.0, )"
+          },
+          "CustomSheets": {
+            "target": "Package",
+            "version": "[1.0.6, )"
           },
           "Microsoft.Extensions.Configuration": {
             "target": "Package",
@@ -24919,6 +25457,10 @@
             "target": "Package",
             "version": "[2.1.0, )"
           },
+          "CustomSheets": {
+            "target": "Package",
+            "version": "[1.0.6, )"
+          },
           "Microsoft.Extensions.Configuration": {
             "target": "Package",
             "version": "[7.0.0, )",
@@ -24985,6 +25527,10 @@
           "CommunityToolkit.Maui.Markup": {
             "target": "Package",
             "version": "[2.1.0, )"
+          },
+          "CustomSheets": {
+            "target": "Package",
+            "version": "[1.0.6, )"
           },
           "Microsoft.Extensions.Configuration": {
             "target": "Package",
@@ -25053,6 +25599,10 @@
           "CommunityToolkit.Maui.Markup": {
             "target": "Package",
             "version": "[2.1.0, )"
+          },
+          "CustomSheets": {
+            "target": "Package",
+            "version": "[1.0.6, )"
           },
           "Microsoft.Extensions.Configuration": {
             "target": "Package",

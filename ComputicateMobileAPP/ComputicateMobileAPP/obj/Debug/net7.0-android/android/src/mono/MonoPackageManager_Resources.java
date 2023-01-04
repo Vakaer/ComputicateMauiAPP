@@ -11,6 +11,7 @@ public class MonoPackageManager_Resources {
 		"CommunityToolkit.Maui.dll",
 		"CommunityToolkit.Maui.Core.dll",
 		"CommunityToolkit.Maui.Markup.dll",
+		"CustomSheets.dll",
 		"GoogleGson.dll",
 		"Microsoft.Extensions.Configuration.dll",
 		"Microsoft.Extensions.Configuration.Abstractions.dll",

@@ -8,15 +8,30 @@
     <ContentPage.Behaviors>
         <mct:StatusBarBehavior StatusBarColor="#408BEA" StatusBarStyle="LightContent" />
     </ContentPage.Behaviors>
-
+    <Shell.TitleView>
+        <Grid HeightRequest="100">
+            <Label
+                Grid.Column="0"
+                FontFamily="InterMedium"
+                FontSize="18"
+                HorizontalTextAlignment="Start"
+                Text="Dashboard"
+                TextColor="White"
+                VerticalTextAlignment="Center" />
+        </Grid>
+    </Shell.TitleView>
     <ContentPage.ToolbarItems>
-        <ToolbarItem IconImageSource="bell.png" Text="notifications" />
+        <ToolbarItem
+            Clicked="ToolbarItem_Clicked"
+            IconImageSource="bell.png"
+            Text="notifications" />
     </ContentPage.ToolbarItems>
     <Grid RowDefinitions="*" RowSpacing="0">
         <ScrollView Grid.Row="0">
             <Grid RowDefinitions="Auto, 0, 47" RowSpacing="0">
                 <Grid
                     Grid.Row="0"
+                    Margin="0,10,0,0"
                     Padding="10"
                     ColumnDefinitions="*,*"
                     ColumnSpacing="10"
@@ -164,15 +179,20 @@
                         VerticalOptions="Center">
                         <Grid ColumnDefinitions="Auto,Auto" ColumnSpacing="0">
                             <Frame
+                                x:Name="WeeklyBtn"
                                 Grid.Column="0"
                                 Margin="0"
                                 Padding="16,0"
-                                BackgroundColor="#408BEA"
+                                BackgroundColor="#2668C5"
                                 BorderColor="Transparent"
                                 CornerRadius="8"
                                 HasShadow="False"
                                 IsClippedToBounds="True">
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Weekly" />
+                                </Frame.GestureRecognizers>
                                 <Label
+                                    x:Name="WeeklyLable"
                                     Text="Weekly"
                                     TextColor="White"
                                     VerticalTextAlignment="Center" />
@@ -181,6 +201,7 @@
 
 
                             <Frame
+                                x:Name="YearlyBtn"
                                 Grid.Column="1"
                                 Margin="0"
                                 Padding="16,0"
@@ -189,7 +210,11 @@
                                 CornerRadius="8"
                                 HasShadow="False"
                                 IsClippedToBounds="True">
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Yearly" />
+                                </Frame.GestureRecognizers>
                                 <Label
+                                    x:Name="YearlyLable"
                                     Text="Yearly"
                                     TextColor="Black"
                                     VerticalTextAlignment="Center" />

@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "TaxuKEDrO3p4Vsd9UtyjgryNdwZZgsYGCl4LphZDT8VKoR3cInLGV/WfwLvvEHaFTFpjthIArx8azzUMb7ab4w==",
+  "dgSpecHash": "rbmLdPpVWiTWu35eN+u1nYI+rLNP1a4G1wXIfyJ7DQ9bko38Dom9pwSMGKE8eTvNoNzotjVioNn5hDEbHKYTCw==",
   "success": true,
   "projectFilePath": "C:\\Users\\DevHouse\\Documents\\GitHub\\ComputicateMauiAPP\\ComputicateMobileAPP\\ComputicateMobileAPP\\ComputicateMobileAPP.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DevHouse\\.nuget\\packages\\communitytoolkit.maui\\3.1.0\\communitytoolkit.maui.3.1.0.nupkg.sha512",
     "C:\\Users\\DevHouse\\.nuget\\packages\\communitytoolkit.maui.core\\3.1.0\\communitytoolkit.maui.core.3.1.0.nupkg.sha512",
     "C:\\Users\\DevHouse\\.nuget\\packages\\communitytoolkit.maui.markup\\2.1.0\\communitytoolkit.maui.markup.2.1.0.nupkg.sha512",
+    "C:\\Users\\DevHouse\\.nuget\\packages\\customsheets\\1.0.6\\customsheets.1.0.6.nupkg.sha512",
     "C:\\Users\\DevHouse\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
     "C:\\Users\\DevHouse\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\DevHouse\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
@@ -21,6 +22,7 @@
     "C:\\Users\\DevHouse\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\7.0.52\\microsoft.maui.graphics.win2d.winui.desktop.7.0.52.nupkg.sha512",
     "C:\\Users\\DevHouse\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22621.755\\microsoft.windows.sdk.buildtools.10.0.22621.755.nupkg.sha512",
     "C:\\Users\\DevHouse\\.nuget\\packages\\microsoft.windowsappsdk\\1.2.221109.1\\microsoft.windowsappsdk.1.2.221109.1.nupkg.sha512",
+    "C:\\Users\\DevHouse\\.nuget\\packages\\system.runtime.interopservices.nfloat.internal\\6.0.1\\system.runtime.interopservices.nfloat.internal.6.0.1.nupkg.sha512",
     "C:\\Users\\DevHouse\\.nuget\\packages\\xamarin.android.glide\\4.13.2.2\\xamarin.android.glide.4.13.2.2.nupkg.sha512",
     "C:\\Users\\DevHouse\\.nuget\\packages\\xamarin.android.glide.annotations\\4.13.2.2\\xamarin.android.glide.annotations.4.13.2.2.nupkg.sha512",
     "C:\\Users\\DevHouse\\.nuget\\packages\\xamarin.android.glide.disklrucache\\4.13.2.2\\xamarin.android.glide.disklrucache.4.13.2.2.nupkg.sha512",

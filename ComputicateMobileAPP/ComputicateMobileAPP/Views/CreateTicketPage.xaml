@@ -119,25 +119,44 @@
                     Style="{StaticResource ParentFrameBg}">
                     <Grid ColumnDefinitions="Auto,Auto,Auto" ColumnSpacing="0">
                         <Frame
+                            x:Name="GeneralBtn"
                             Grid.Column="0"
                             BackgroundColor="#408BEA"
                             Style="{StaticResource FrameButtons}">
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="TapGestureRecognizer_GeneralBtn" />
+                            </Frame.GestureRecognizers>
                             <Label
+                                x:Name="GeneralLabel"
                                 FontFamily="InterRegular"
                                 Text="General"
                                 TextColor="White" />
                         </Frame>
                         <Frame
+                            x:Name="DetailsBtn"
                             Grid.Column="1"
                             BackgroundColor="Transparent"
                             Style="{StaticResource FrameButtons}">
-                            <Label FontFamily="InterRegular" Text="Ticket Details" />
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="TapGestureRecognizer_DetailsBtn" />
+                            </Frame.GestureRecognizers>
+                            <Label
+                                x:Name="DetailsLabel"
+                                FontFamily="InterRegular"
+                                Text="Ticket Details" />
                         </Frame>
                         <Frame
+                            x:Name="BillableBtn"
                             Grid.Column="2"
                             BackgroundColor="Transparent"
                             Style="{StaticResource FrameButtons}">
-                            <Label FontFamily="InterRegular" Text="Billable Items" />
+                            <Frame.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="TapGestureRecognizer_BillableBtn" />
+                            </Frame.GestureRecognizers>
+                            <Label
+                                x:Name="BillableLabel"
+                                FontFamily="InterRegular"
+                                Text="Billable Items" />
                         </Frame>
                     </Grid>
                 </Frame>

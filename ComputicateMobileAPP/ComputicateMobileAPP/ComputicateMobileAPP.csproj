@@ -94,6 +94,7 @@
 	  <PackageReference Include="CommunityToolkit.Maui" Version="3.1.0" />
 	  <PackageReference Include="CommunityToolkit.Maui.Markup" Version="2.1.0" />
 	  <PackageReference Include="CustomSheets" Version="1.0.6" />
+	  <PackageReference Include="Mopups" Version="1.1.0" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -122,6 +123,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\DeskServicePage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Views\TimeEntriesFiltersMopupPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Views\TimeEntriesNotificationPage.xaml">

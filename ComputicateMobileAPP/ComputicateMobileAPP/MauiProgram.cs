@@ -3,6 +3,7 @@ using CommunityToolkit.Maui.Markup;
 using ComputicateMobileAPP.ViewModel;
 using ComputicateMobileAPP.Views;
 using Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific;
+using Mopups.Hosting;
 
 namespace ComputicateMobileAPP;
 
@@ -20,6 +21,7 @@ public static class MauiProgram
 
         builder
 			.UseMauiApp<App>()
+			.ConfigureMopups()
 			.UseMauiCommunityToolkit()
 			.UseMauiCommunityToolkitMarkup()
 			.ConfigureFonts(fonts =>

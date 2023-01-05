@@ -521,6 +521,5 @@
                 </Grid>
             </ScrollView>
         </Grid>
-
     </ContentPage.Content>
 </ContentPage>

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "rbmLdPpVWiTWu35eN+u1nYI+rLNP1a4G1wXIfyJ7DQ9bko38Dom9pwSMGKE8eTvNoNzotjVioNn5hDEbHKYTCw==",
+  "dgSpecHash": "/n/CNQ+F7FImpwV5kP6r64k2iXUD8/iPXEcs+8zTSYcNd7Y7S+86lj8kIRXRadZNhriD7H00ia1oxl5DDOFVQg==",
   "success": true,
   "projectFilePath": "C:\\Users\\DevHouse\\Documents\\GitHub\\ComputicateMauiAPP\\ComputicateMobileAPP\\ComputicateMobileAPP\\ComputicateMobileAPP.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\DevHouse\\.nuget\\packages\\asyncawaitbestpractices\\6.0.4\\asyncawaitbestpractices.6.0.4.nupkg.sha512",
     "C:\\Users\\DevHouse\\.nuget\\packages\\communitytoolkit.maui\\3.1.0\\communitytoolkit.maui.3.1.0.nupkg.sha512",
     "C:\\Users\\DevHouse\\.nuget\\packages\\communitytoolkit.maui.core\\3.1.0\\communitytoolkit.maui.core.3.1.0.nupkg.sha512",
     "C:\\Users\\DevHouse\\.nuget\\packages\\communitytoolkit.maui.markup\\2.1.0\\communitytoolkit.maui.markup.2.1.0.nupkg.sha512",
@@ -22,6 +23,7 @@
     "C:\\Users\\DevHouse\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\7.0.52\\microsoft.maui.graphics.win2d.winui.desktop.7.0.52.nupkg.sha512",
     "C:\\Users\\DevHouse\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22621.755\\microsoft.windows.sdk.buildtools.10.0.22621.755.nupkg.sha512",
     "C:\\Users\\DevHouse\\.nuget\\packages\\microsoft.windowsappsdk\\1.2.221109.1\\microsoft.windowsappsdk.1.2.221109.1.nupkg.sha512",
+    "C:\\Users\\DevHouse\\.nuget\\packages\\mopups\\1.1.0\\mopups.1.1.0.nupkg.sha512",
     "C:\\Users\\DevHouse\\.nuget\\packages\\system.runtime.interopservices.nfloat.internal\\6.0.1\\system.runtime.interopservices.nfloat.internal.6.0.1.nupkg.sha512",
     "C:\\Users\\DevHouse\\.nuget\\packages\\xamarin.android.glide\\4.13.2.2\\xamarin.android.glide.4.13.2.2.nupkg.sha512",
     "C:\\Users\\DevHouse\\.nuget\\packages\\xamarin.android.glide.annotations\\4.13.2.2\\xamarin.android.glide.annotations.4.13.2.2.nupkg.sha512",

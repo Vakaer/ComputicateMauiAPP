@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mopups:PopupPage
+    x:Class="ComputicateMobileAPP.Views.TimeEntriesFiltersMopupPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:mopups="clr-namespace:Mopups.Pages;assembly=Mopups"
+    xmlns:mopupsanim="clr-namespace:Mopups.Animations;assembly=Mopups"
+    Title="MyPopupPage"
+    BackgroundColor="#80000000"
+    CloseWhenBackgroundIsClicked="True">
+
+    <mopups:PopupPage.Animation>
+        <mopupsanim:MoveAnimation
+            DurationIn="400"
+            DurationOut="400"
+            PositionIn="Bottom"
+            PositionOut="Bottom" />
+    </mopups:PopupPage.Animation>
+
+    <!--  popup page resources starts  -->
+    <mopups:PopupPage.Resources>
+        <Style x:Key="checkboxlabel" TargetType="Label">
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="FontFamily" Value="InterMedium" />
+            <Setter Property="VerticalOptions" Value="Center" />
+        </Style>
+    </mopups:PopupPage.Resources>
+    <!--  popup page resources ends  -->
+
+    <!--  Popup page main content starts  -->
+    <ScrollView HorizontalOptions="Center" VerticalOptions="Center">
+        <!--  parent grid layout starts  -->
+        <Grid
+            ColumnDefinitions="*"
+            RowDefinitions="Auto,*"
+            RowSpacing="0">
+            <Grid.Behaviors>
+                
+            </Grid.Behaviors>
+            <!--  close button start  -->
+            <AbsoluteLayout
+                Grid.Row="0"
+                Margin="0,300,0,-300"
+                HorizontalOptions="Center"
+                VerticalOptions="End">
+                <Border
+                    Margin="0,0,0,0"
+                    Padding="0"
+                    BackgroundColor="#332668C5"
+                    HeightRequest="50"
+                    StrokeShape="RoundRectangle 50"
+                    StrokeThickness="0"
+                    WidthRequest="50">
+                    <Button
+                        BackgroundColor="Transparent"
+                        Clicked="CloseButton_Clicked"
+                        HorizontalOptions="Center"
+                        Text="X"
+                        TextColor="White"
+                        VerticalOptions="Center" />
+                </Border>
+            </AbsoluteLayout>
+            <!--  close button end  -->
+
+            <!--  mopups starts  -->
+            <Border
+                Grid.Row="1"
+                Margin="0,300,0,0"
+                HeightRequest="479"
+                StrokeThickness="0"
+                VerticalOptions="EndAndExpand">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="40,40,0,0" />
+                </Border.StrokeShape>
+                <StackLayout
+                    Margin="20,0"
+                    Spacing="3"
+                    VerticalOptions="Center">
+                    <VerticalStackLayout Padding="0,0,0,20" Spacing="20">
+                        <HorizontalStackLayout Spacing="20">
+                            <CheckBox />
+                            <Label Style="{StaticResource checkboxlabel}" Text="All tickets" />
+                        </HorizontalStackLayout>
+                        <HorizontalStackLayout Spacing="20">
+                            <CheckBox />
+                            <Label Style="{StaticResource checkboxlabel}" Text="Closed" />
+                        </HorizontalStackLayout>
+                        <HorizontalStackLayout Spacing="20">
+                            <CheckBox />
+                            <Label Style="{StaticResource checkboxlabel}" Text="Unassigned Tickets" />
+                        </HorizontalStackLayout>
+                        <HorizontalStackLayout Spacing="20">
+                            <CheckBox />
+                            <Label Style="{StaticResource checkboxlabel}" Text="My Tickets" />
+                        </HorizontalStackLayout>
+                        <HorizontalStackLayout Spacing="20">
+                            <CheckBox />
+                            <Label Style="{StaticResource checkboxlabel}" Text="SLA Breach" />
+                        </HorizontalStackLayout>
+                    </VerticalStackLayout>
+
+                    <VerticalStackLayout>
+                        <Button
+                            x:Name="ApplyFilters"
+                            BackgroundColor="#2668C5"
+                            HorizontalOptions="Fill"
+                            Text="Apply Filters"
+                            VerticalOptions="EndAndExpand" />
+                        <Button
+                            x:Name="ResetSelection"
+                            BackgroundColor="Transparent"
+                            HorizontalOptions="Fill"
+                            Text="Reset Selection"
+                            TextColor="#2668C5"
+                            VerticalOptions="EndAndExpand" />
+                    </VerticalStackLayout>
+
+                </StackLayout>
+            </Border>
+            <!--  mopups ends  -->
+        </Grid>
+        <!--  parent grid layout ends  -->
+
+    </ScrollView>
+    <!--  Popup page main content ends  -->
+</mopups:PopupPage>

@@ -68,6 +68,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = ComputicateMobileAPP.Views
 build_metadata.AdditionalFiles.TargetPath = Views\DeskServicePage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\DeskServicePage.xaml
 
+[C:/Users/DevHouse/Documents/GitHub/ComputicateMauiAPP/ComputicateMobileAPP/ComputicateMobileAPP/Views/TimeEntriesFiltersMopupPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ComputicateMobileAPP.Views.TimeEntriesFiltersMopupPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\TimeEntriesFiltersMopupPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\TimeEntriesFiltersMopupPage.xaml
+
 [C:/Users/DevHouse/Documents/GitHub/ComputicateMauiAPP/ComputicateMobileAPP/ComputicateMobileAPP/Views/TimeEntriesNotificationPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ComputicateMobileAPP.Views.TimeEntriesNotificationPage.xaml

@@ -10,6 +10,7 @@ public class MainActivity
 	public static final String __md_methods;
 	static {
 		__md_methods = 
+			"n_onCreate:(Landroid/os/Bundle;Landroid/os/PersistableBundle;)V:GetOnCreate_Landroid_os_Bundle_Landroid_os_PersistableBundle_Handler\n" +
 			"";
 		mono.android.Runtime.register ("ComputicateMobileAPP.MainActivity, ComputicateMobileAPP", MainActivity.class, __md_methods);
 	}
@@ -31,6 +32,14 @@ public class MainActivity
 			mono.android.TypeManager.Activate ("ComputicateMobileAPP.MainActivity, ComputicateMobileAPP", "System.Int32, System.Private.CoreLib", this, new java.lang.Object[] { p0 });
 		}
 	}
+
+
+	public void onCreate (android.os.Bundle p0, android.os.PersistableBundle p1)
+	{
+		n_onCreate (p0, p1);
+	}
+
+	private native void n_onCreate (android.os.Bundle p0, android.os.PersistableBundle p1);
 
 	private java.util.ArrayList refList;
 	public void monodroidAddReference (java.lang.Object obj)

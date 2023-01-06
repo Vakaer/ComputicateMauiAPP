@@ -5,11 +5,14 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:Views="clr-namespace:ComputicateMobileAPP.Views"
     xmlns:local="clr-namespace:ComputicateMobileAPP"
+    xmlns:mct="clr-namespace:CommunityToolkit.Maui.Behaviors;assembly=CommunityToolkit.Maui"
     BackgroundColor="#408BEA"
     FlyoutBackgroundColor="#408BEA"
-    FlyoutIcon="bhamburger.svg"
+    FlyoutIcon="white_bhamburger.svg"
     FlyoutWidth="400"
     Shell.FlyoutBehavior="Flyout">
+
+
     <!--  Shell resources  -->
     <Shell.Resources>
         <!--  to change color of label of each flyout item  -->
@@ -41,7 +44,7 @@
     <!--  Shell item templates  -->
     <Shell.ItemTemplate>
         <DataTemplate>
-            <Grid Padding="40,0,0,30" ColumnDefinitions="50,*">
+            <Grid Padding="40,10,0,30" ColumnDefinitions="50,*">
                 <Image Source="{Binding Icon}" />
                 <Label
                     Grid.Column="1"
@@ -71,14 +74,14 @@
                 Grid.Row="1"
                 HeightRequest="20"
                 Stroke="white"
-                X2="320" />
+                X2="380" />
         </Grid>
     </Shell.FlyoutHeader>
 
     <!--  Shell Footer  -->
     <Shell.FlyoutFooter>
         <StackLayout
-            Padding="45,50,50,30"
+            Padding="40,50,50,30"
             HorizontalOptions="StartAndExpand"
             Orientation="Horizontal"
             Spacing="10">
@@ -86,7 +89,7 @@
             <Label
                 FontSize="16"
                 Text="Logout"
-                TextColor="White" />
+                TextColor="White"/>
         </StackLayout>
     </Shell.FlyoutFooter>
 
@@ -109,7 +112,6 @@
 
         <ShellContent
             ContentTemplate="{DataTemplate Views:TimeEntriesPage}"
-            FlyoutIcon="bhamburger.svg"
             Route="timeEntries"
             Style="{StaticResource WhitePageBar}" />
 

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/n/CNQ+F7FImpwV5kP6r64k2iXUD8/iPXEcs+8zTSYcNd7Y7S+86lj8kIRXRadZNhriD7H00ia1oxl5DDOFVQg==",
+  "dgSpecHash": "ixnfYYcB7/A9Dzj6EOHVqb2D7dln4qqr/z2yGYZuUMMrpYop/96B3wrT550INIgJDMzzhWki1qnnjVG0jUItjw==",
   "success": true,
   "projectFilePath": "C:\\Users\\DevHouse\\Documents\\GitHub\\ComputicateMauiAPP\\ComputicateMobileAPP\\ComputicateMobileAPP\\ComputicateMobileAPP.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "C:\\Users\\DevHouse\\.nuget\\packages\\communitytoolkit.maui.markup\\2.1.0\\communitytoolkit.maui.markup.2.1.0.nupkg.sha512",
     "C:\\Users\\DevHouse\\.nuget\\packages\\customsheets\\1.0.6\\customsheets.1.0.6.nupkg.sha512",
     "C:\\Users\\DevHouse\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",
+    "C:\\Users\\DevHouse\\.nuget\\packages\\inputkit.maui\\4.2.1\\inputkit.maui.4.2.1.nupkg.sha512",
     "C:\\Users\\DevHouse\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\DevHouse\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\DevHouse\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",

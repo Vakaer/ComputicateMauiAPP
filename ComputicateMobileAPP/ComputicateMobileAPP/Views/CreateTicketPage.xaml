@@ -5,10 +5,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:controls="clr-namespace:ComputicateMobileAPP.Controls"
     xmlns:mct="clr-namespace:CommunityToolkit.Maui.Behaviors;assembly=CommunityToolkit.Maui"
-    Title="Add Ticket"
-    Shell.PresentationMode="Modal">
-
-
+    Shell.ForegroundColor="#2668C5">
 
     <Shell.TitleView>
 
@@ -40,9 +37,6 @@
         </Grid>
     </Shell.TitleView>
 
-    <Shell.BackButtonBehavior>
-        <BackButtonBehavior IconOverride="right_arrow.svg" TextOverride=" " />
-    </Shell.BackButtonBehavior>
 
     <!--  Behaviours  -->
     <ContentPage.Behaviors>

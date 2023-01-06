@@ -83,6 +83,26 @@
           }
         }
       },
+      "InputKit.Maui/4.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-android33.0/InputKit.Maui.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/InputKit.Maui.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/net7.0-android33.0/icon512.png": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -2068,6 +2088,26 @@
         "runtime": {
           "lib/net6.0-android31.0/GoogleGson.dll": {
             "related": ".aar;.xml"
+          }
+        }
+      },
+      "InputKit.Maui/4.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-android33.0/InputKit.Maui.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/InputKit.Maui.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/net7.0-android33.0/icon512.png": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
           }
         }
       },
@@ -4059,6 +4099,26 @@
           }
         }
       },
+      "InputKit.Maui/4.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-android33.0/InputKit.Maui.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/InputKit.Maui.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/net7.0-android33.0/icon512.png": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -6044,6 +6104,26 @@
         "runtime": {
           "lib/net6.0-android31.0/GoogleGson.dll": {
             "related": ".aar;.xml"
+          }
+        }
+      },
+      "InputKit.Maui/4.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-android33.0/InputKit.Maui.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/InputKit.Maui.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/net7.0-android33.0/icon512.png": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
           }
         }
       },
@@ -8035,6 +8115,26 @@
           }
         }
       },
+      "InputKit.Maui/4.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-android33.0/InputKit.Maui.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/InputKit.Maui.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/net7.0-android33.0/icon512.png": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -10020,6 +10120,26 @@
         "runtime": {
           "lib/net6.0-android31.0/GoogleGson.dll": {
             "related": ".aar;.xml"
+          }
+        }
+      },
+      "InputKit.Maui/4.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-android33.0/InputKit.Maui.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/InputKit.Maui.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/net7.0-android33.0/icon512.png": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
           }
         }
       },
@@ -12011,6 +12131,26 @@
           }
         }
       },
+      "InputKit.Maui/4.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-android33.0/InputKit.Maui.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/InputKit.Maui.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/net7.0-android33.0/icon512.png": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -13999,6 +14139,26 @@
           }
         }
       },
+      "InputKit.Maui/4.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-android33.0/InputKit.Maui.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-android33.0/InputKit.Maui.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/net7.0-android33.0/icon512.png": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -15973,6 +16133,26 @@
           "lib/net6.0-ios15.4/CustomSheets.dll": {}
         }
       },
+      "InputKit.Maui/4.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-ios16.0/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.0/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/net7.0-ios16.0/icon512.png": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -16225,6 +16405,26 @@
         },
         "runtime": {
           "lib/net6.0-ios15.4/CustomSheets.dll": {}
+        }
+      },
+      "InputKit.Maui/4.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-ios16.0/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.0/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/net7.0-ios16.0/icon512.png": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
         }
       },
       "Microsoft.Extensions.Configuration/7.0.0": {
@@ -16481,6 +16681,26 @@
           "lib/net6.0-ios15.4/CustomSheets.dll": {}
         }
       },
+      "InputKit.Maui/4.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-ios16.0/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.0/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/net7.0-ios16.0/icon512.png": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -16733,6 +16953,26 @@
         },
         "runtime": {
           "lib/net6.0-ios15.4/CustomSheets.dll": {}
+        }
+      },
+      "InputKit.Maui/4.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-ios16.0/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.0/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/net7.0-ios16.0/icon512.png": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
         }
       },
       "Microsoft.Extensions.Configuration/7.0.0": {
@@ -16989,6 +17229,26 @@
           "lib/net6.0-ios15.4/CustomSheets.dll": {}
         }
       },
+      "InputKit.Maui/4.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-ios16.0/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.0/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/net7.0-ios16.0/icon512.png": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -17241,6 +17501,26 @@
         },
         "runtime": {
           "lib/net6.0-ios15.4/CustomSheets.dll": {}
+        }
+      },
+      "InputKit.Maui/4.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-ios16.0/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.0/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/net7.0-ios16.0/icon512.png": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
         }
       },
       "Microsoft.Extensions.Configuration/7.0.0": {
@@ -17497,6 +17777,26 @@
           "lib/net6.0-ios15.4/CustomSheets.dll": {}
         }
       },
+      "InputKit.Maui/4.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-ios16.0/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.0/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/net7.0-ios16.0/icon512.png": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -17749,6 +18049,26 @@
         },
         "runtime": {
           "lib/net6.0-ios15.4/CustomSheets.dll": {}
+        }
+      },
+      "InputKit.Maui/4.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-ios16.0/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-ios16.0/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/net7.0-ios16.0/icon512.png": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
         }
       },
       "Microsoft.Extensions.Configuration/7.0.0": {
@@ -18005,6 +18325,26 @@
           "lib/net6.0-maccatalyst15.4/CustomSheets.dll": {}
         }
       },
+      "InputKit.Maui/4.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-maccatalyst15.4/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst15.4/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/net7.0-maccatalyst15.4/icon512.png": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -18257,6 +18597,26 @@
         },
         "runtime": {
           "lib/net6.0-maccatalyst15.4/CustomSheets.dll": {}
+        }
+      },
+      "InputKit.Maui/4.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-maccatalyst15.4/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst15.4/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/net7.0-maccatalyst15.4/icon512.png": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
         }
       },
       "Microsoft.Extensions.Configuration/7.0.0": {
@@ -18513,6 +18873,26 @@
           "lib/net6.0-maccatalyst15.4/CustomSheets.dll": {}
         }
       },
+      "InputKit.Maui/4.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-maccatalyst15.4/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst15.4/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/net7.0-maccatalyst15.4/icon512.png": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -18765,6 +19145,26 @@
         },
         "runtime": {
           "lib/net6.0-maccatalyst15.4/CustomSheets.dll": {}
+        }
+      },
+      "InputKit.Maui/4.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-maccatalyst15.4/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst15.4/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/net7.0-maccatalyst15.4/icon512.png": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
         }
       },
       "Microsoft.Extensions.Configuration/7.0.0": {
@@ -19021,6 +19421,26 @@
           "lib/net6.0-maccatalyst15.4/CustomSheets.dll": {}
         }
       },
+      "InputKit.Maui/4.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-maccatalyst15.4/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst15.4/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/net7.0-maccatalyst15.4/icon512.png": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -19273,6 +19693,26 @@
         },
         "runtime": {
           "lib/net6.0-maccatalyst15.4/CustomSheets.dll": {}
+        }
+      },
+      "InputKit.Maui/4.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-maccatalyst15.4/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst15.4/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/net7.0-maccatalyst15.4/icon512.png": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
         }
       },
       "Microsoft.Extensions.Configuration/7.0.0": {
@@ -19529,6 +19969,26 @@
           "lib/net6.0-maccatalyst15.4/CustomSheets.dll": {}
         }
       },
+      "InputKit.Maui/4.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-maccatalyst15.4/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst15.4/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/net7.0-maccatalyst15.4/icon512.png": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -19783,6 +20243,26 @@
           "lib/net6.0-maccatalyst15.4/CustomSheets.dll": {}
         }
       },
+      "InputKit.Maui/4.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-maccatalyst15.4/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-maccatalyst15.4/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/net7.0-maccatalyst15.4/icon512.png": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -20032,6 +20512,26 @@
         },
         "runtime": {
           "lib/net6.0-windows10.0.19041/CustomSheets.dll": {}
+        }
+      },
+      "InputKit.Maui/4.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-windows10.0.19041/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/net7.0-windows10.0.19041/icon512.png": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
         }
       },
       "Microsoft.Extensions.Configuration/7.0.0": {
@@ -20415,6 +20915,26 @@
           "lib/net6.0-windows10.0.19041/CustomSheets.dll": {}
         }
       },
+      "InputKit.Maui/4.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-windows10.0.19041/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/net7.0-windows10.0.19041/icon512.png": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -20766,6 +21286,26 @@
         },
         "runtime": {
           "lib/net6.0-windows10.0.19041/CustomSheets.dll": {}
+        }
+      },
+      "InputKit.Maui/4.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-windows10.0.19041/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/net7.0-windows10.0.19041/icon512.png": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
         }
       },
       "Microsoft.Extensions.Configuration/7.0.0": {
@@ -21121,6 +21661,26 @@
           "lib/net6.0-windows10.0.19041/CustomSheets.dll": {}
         }
       },
+      "InputKit.Maui/4.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-windows10.0.19041/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/net7.0-windows10.0.19041/icon512.png": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -21472,6 +22032,26 @@
         },
         "runtime": {
           "lib/net6.0-windows10.0.19041/CustomSheets.dll": {}
+        }
+      },
+      "InputKit.Maui/4.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-windows10.0.19041/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/net7.0-windows10.0.19041/icon512.png": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
         }
       },
       "Microsoft.Extensions.Configuration/7.0.0": {
@@ -21827,6 +22407,26 @@
           "lib/net6.0-windows10.0.19041/CustomSheets.dll": {}
         }
       },
+      "InputKit.Maui/4.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-windows10.0.19041/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/net7.0-windows10.0.19041/icon512.png": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -22180,6 +22780,26 @@
           "lib/net6.0-windows10.0.19041/CustomSheets.dll": {}
         }
       },
+      "InputKit.Maui/4.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-windows10.0.19041/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/net7.0-windows10.0.19041/icon512.png": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -22531,6 +23151,26 @@
         },
         "runtime": {
           "lib/net6.0-windows10.0.19041/CustomSheets.dll": {}
+        }
+      },
+      "InputKit.Maui/4.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0-windows10.0.19041/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0-windows10.0.19041/InputKit.Maui.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "contentFiles": {
+          "contentFiles/any/net7.0-windows10.0.19041/icon512.png": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
         }
       },
       "Microsoft.Extensions.Configuration/7.0.0": {
@@ -22951,6 +23591,40 @@
         "lib/net6.0-android31.0/GoogleGson.aar",
         "lib/net6.0-android31.0/GoogleGson.dll",
         "lib/net6.0-android31.0/GoogleGson.xml"
+      ]
+    },
+    "InputKit.Maui/4.2.1": {
+      "sha512": "7R0DpNBjRrLgvBaiikeXguQghyLdTWkIcex5QqHXS8aMV8pcxC5Skq+icplP0RuLo9j+96qpWT6lblEVuqYrhQ==",
+      "type": "package",
+      "path": "inputkit.maui/4.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/icon512.png",
+        "contentFiles/any/net7.0-android33.0/icon512.png",
+        "contentFiles/any/net7.0-ios16.0/icon512.png",
+        "contentFiles/any/net7.0-maccatalyst15.4/icon512.png",
+        "contentFiles/any/net7.0-windows10.0.19041/icon512.png",
+        "contentFiles/any/net7.0/icon512.png",
+        "icon512.png",
+        "inputkit.maui.4.2.1.nupkg.sha512",
+        "inputkit.maui.nuspec",
+        "lib/net7.0-android33.0/InputKit.Maui.aar",
+        "lib/net7.0-android33.0/InputKit.Maui.dll",
+        "lib/net7.0-android33.0/InputKit.Maui.pdb",
+        "lib/net7.0-android33.0/InputKit.Maui.xml",
+        "lib/net7.0-ios16.0/InputKit.Maui.dll",
+        "lib/net7.0-ios16.0/InputKit.Maui.pdb",
+        "lib/net7.0-ios16.0/InputKit.Maui.xml",
+        "lib/net7.0-maccatalyst15.4/InputKit.Maui.dll",
+        "lib/net7.0-maccatalyst15.4/InputKit.Maui.pdb",
+        "lib/net7.0-maccatalyst15.4/InputKit.Maui.xml",
+        "lib/net7.0-windows10.0.19041/InputKit.Maui.dll",
+        "lib/net7.0-windows10.0.19041/InputKit.Maui.pdb",
+        "lib/net7.0-windows10.0.19041/InputKit.Maui.xml",
+        "lib/net7.0/InputKit.Maui.dll",
+        "lib/net7.0/InputKit.Maui.pdb",
+        "lib/net7.0/InputKit.Maui.xml"
       ]
     },
     "Microsoft.Extensions.Configuration/7.0.0": {
@@ -26179,6 +26853,7 @@
       "CommunityToolkit.Maui >= 3.1.0",
       "CommunityToolkit.Maui.Markup >= 2.1.0",
       "CustomSheets >= 1.0.6",
+      "InputKit.Maui >= 4.2.1",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
@@ -26201,6 +26876,7 @@
       "CommunityToolkit.Maui >= 3.1.0",
       "CommunityToolkit.Maui.Markup >= 2.1.0",
       "CustomSheets >= 1.0.6",
+      "InputKit.Maui >= 4.2.1",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
@@ -26212,6 +26888,7 @@
       "CommunityToolkit.Maui >= 3.1.0",
       "CommunityToolkit.Maui.Markup >= 2.1.0",
       "CustomSheets >= 1.0.6",
+      "InputKit.Maui >= 4.2.1",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
@@ -26223,6 +26900,7 @@
       "CommunityToolkit.Maui >= 3.1.0",
       "CommunityToolkit.Maui.Markup >= 2.1.0",
       "CustomSheets >= 1.0.6",
+      "InputKit.Maui >= 4.2.1",
       "Microsoft.Extensions.Configuration >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Logging >= 7.0.0",
@@ -26306,6 +26984,10 @@
           "CustomSheets": {
             "target": "Package",
             "version": "[1.0.6, )"
+          },
+          "InputKit.Maui": {
+            "target": "Package",
+            "version": "[4.2.1, )"
           },
           "Microsoft.Extensions.Configuration": {
             "target": "Package",
@@ -26437,6 +27119,10 @@
             "target": "Package",
             "version": "[1.0.6, )"
           },
+          "InputKit.Maui": {
+            "target": "Package",
+            "version": "[4.2.1, )"
+          },
           "Microsoft.Extensions.Configuration": {
             "target": "Package",
             "version": "[7.0.0, )",
@@ -26511,6 +27197,10 @@
           "CustomSheets": {
             "target": "Package",
             "version": "[1.0.6, )"
+          },
+          "InputKit.Maui": {
+            "target": "Package",
+            "version": "[4.2.1, )"
           },
           "Microsoft.Extensions.Configuration": {
             "target": "Package",
@@ -26587,6 +27277,10 @@
           "CustomSheets": {
             "target": "Package",
             "version": "[1.0.6, )"
+          },
+          "InputKit.Maui": {
+            "target": "Package",
+            "version": "[4.2.1, )"
           },
           "Microsoft.Extensions.Configuration": {
             "target": "Package",

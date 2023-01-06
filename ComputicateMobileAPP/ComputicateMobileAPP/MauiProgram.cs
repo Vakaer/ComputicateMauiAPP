@@ -2,6 +2,7 @@
 using CommunityToolkit.Maui.Markup;
 using ComputicateMobileAPP.ViewModel;
 using ComputicateMobileAPP.Views;
+using InputKit.Handlers;
 using Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific;
 using Mopups.Hosting;
 
@@ -21,6 +22,10 @@ public static class MauiProgram
 
         builder
 			.UseMauiApp<App>()
+			.ConfigureMauiHandlers(handlers =>
+			{
+				handlers.AddInputKitHandlers();
+			})
 			.ConfigureMopups()
 			.UseMauiCommunityToolkit()
 			.UseMauiCommunityToolkitMarkup()

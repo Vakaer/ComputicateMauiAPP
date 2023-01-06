@@ -73,6 +73,10 @@
               "target": "Package",
               "version": "[1.0.6, )"
             },
+            "InputKit.Maui": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[7.0.0, )",
@@ -203,6 +207,10 @@
               "target": "Package",
               "version": "[1.0.6, )"
             },
+            "InputKit.Maui": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[7.0.0, )",
@@ -277,6 +285,10 @@
             "CustomSheets": {
               "target": "Package",
               "version": "[1.0.6, )"
+            },
+            "InputKit.Maui": {
+              "target": "Package",
+              "version": "[4.2.1, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
@@ -353,6 +365,10 @@
             "CustomSheets": {
               "target": "Package",
               "version": "[1.0.6, )"
+            },
+            "InputKit.Maui": {
+              "target": "Package",
+              "version": "[4.2.1, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",

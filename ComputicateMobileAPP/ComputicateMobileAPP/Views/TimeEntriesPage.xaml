@@ -6,7 +6,7 @@
     xmlns:mct="clr-namespace:CommunityToolkit.Maui.Behaviors;assembly=CommunityToolkit.Maui"
     xmlns:sheets="clr-namespace:CustomSheets;assembly=CustomSheets"
     xmlns:views="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
-    Title="TimeEntries">
+    Shell.ForegroundColor="#2668C5">
 
 
     <!--  ContentPage Behaviours  -->
@@ -15,12 +15,9 @@
     </ContentPage.Behaviors>
 
     <!--  Shell Back Button Behaviour  -->
-    <Shell.BackButtonBehavior>
-        <BackButtonBehavior
-            Command="{Binding goToMainPage}"
-            IconOverride="right_arrow.svg"
-            TextOverride=" " />
-    </Shell.BackButtonBehavior>
+    <!--<Shell.BackButtonBehavior>
+        <BackButtonBehavior IconOverride="blue_bell.svg" IsVisible="True" />
+    </Shell.BackButtonBehavior>-->
 
     <Shell.TitleView>
         <Grid ColumnDefinitions="1.5*,*" ColumnSpacing="0">
@@ -56,6 +53,8 @@
         <Style x:Key="CustomBorder" TargetType="Frame">
             <Setter Property="CornerRadius" Value="40" />
         </Style>
+        <Color x:Key="Background_Dark">#081B25</Color>
+
     </ContentPage.Resources>
 
 

@@ -3,8 +3,7 @@
     x:Class="ComputicateMobileAPP.Views.DashboardPage"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:mct="clr-namespace:CommunityToolkit.Maui.Behaviors;assembly=CommunityToolkit.Maui"
-    Title="Dashboard">
+    xmlns:mct="clr-namespace:CommunityToolkit.Maui.Behaviors;assembly=CommunityToolkit.Maui">
     <ContentPage.Behaviors>
         <mct:StatusBarBehavior StatusBarColor="#408BEA" StatusBarStyle="LightContent" />
     </ContentPage.Behaviors>
@@ -52,7 +51,7 @@
                             <Image
                                 Grid.Column="1"
                                 HorizontalOptions="End"
-                                Source="ticket.png" />
+                                Source="dashboard_ticket.png" />
                             <Label
                                 Grid.Row="1"
                                 FontAttributes="Bold"
@@ -72,7 +71,7 @@
                             <Image
                                 Grid.Column="1"
                                 HorizontalOptions="End"
-                                Source="ticket.png" />
+                                Source="dashboard_calender.svg" />
                             <Label
                                 Grid.Row="1"
                                 FontAttributes="Bold"
@@ -93,7 +92,7 @@
                             <Image
                                 Grid.Column="1"
                                 HorizontalOptions="End"
-                                Source="ticket.png" />
+                                Source="dashboard_clock.svg" />
                             <Label
                                 Grid.Row="1"
                                 FontAttributes="Bold"
@@ -116,7 +115,7 @@
                             <Image
                                 Grid.Column="1"
                                 HorizontalOptions="End"
-                                Source="ticket.png" />
+                                Source="caution.png" />
                             <Label
                                 Grid.Row="1"
                                 FontAttributes="Bold"
@@ -136,7 +135,7 @@
                             <Image
                                 Grid.Column="1"
                                 HorizontalOptions="End"
-                                Source="ticket.png" />
+                                Source="sandbox.svg" />
                             <Label
                                 Grid.Row="1"
                                 FontAttributes="Bold"

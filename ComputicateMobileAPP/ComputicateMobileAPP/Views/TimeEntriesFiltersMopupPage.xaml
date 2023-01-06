@@ -3,6 +3,7 @@
     x:Class="ComputicateMobileAPP.Views.TimeEntriesFiltersMopupPage"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:input="clr-namespace:InputKit.Shared.Controls;assembly=InputKit.Maui"
     xmlns:mopups="clr-namespace:Mopups.Pages;assembly=Mopups"
     xmlns:mopupsanim="clr-namespace:Mopups.Animations;assembly=Mopups"
     Title="MyPopupPage"
@@ -19,10 +20,12 @@
 
     <!--  popup page resources starts  -->
     <mopups:PopupPage.Resources>
-        <Style x:Key="checkboxlabel" TargetType="Label">
-            <Setter Property="FontSize" Value="14" />
+        <Style x:Key="checkboxlabel" TargetType="input:CheckBox">
+            <Setter Property="TextFontSize" Value="14" />
             <Setter Property="FontFamily" Value="InterMedium" />
             <Setter Property="VerticalOptions" Value="Center" />
+            <Setter Property="BorderColor" Value="#4D2668C5" />
+            <Setter Property="BoxBackgroundColor" Value="White" />
         </Style>
     </mopups:PopupPage.Resources>
     <!--  popup page resources ends  -->
@@ -34,9 +37,7 @@
             ColumnDefinitions="*"
             RowDefinitions="Auto,*"
             RowSpacing="0">
-            <Grid.Behaviors>
-                
-            </Grid.Behaviors>
+            <Grid.Behaviors />
             <!--  close button start  -->
             <AbsoluteLayout
                 Grid.Row="0"
@@ -78,24 +79,24 @@
                     VerticalOptions="Center">
                     <VerticalStackLayout Padding="0,0,0,20" Spacing="20">
                         <HorizontalStackLayout Spacing="20">
-                            <CheckBox />
-                            <Label Style="{StaticResource checkboxlabel}" Text="All tickets" />
+                            <input:CheckBox Style="{StaticResource checkboxlabel}" Text="All tickets" />
+
                         </HorizontalStackLayout>
                         <HorizontalStackLayout Spacing="20">
-                            <CheckBox />
-                            <Label Style="{StaticResource checkboxlabel}" Text="Closed" />
+                            <input:CheckBox Style="{StaticResource checkboxlabel}" Text="Closed" />
+
                         </HorizontalStackLayout>
                         <HorizontalStackLayout Spacing="20">
-                            <CheckBox />
-                            <Label Style="{StaticResource checkboxlabel}" Text="Unassigned Tickets" />
+                            <input:CheckBox Style="{StaticResource checkboxlabel}" Text="Unassigned Tickets" />
+
                         </HorizontalStackLayout>
                         <HorizontalStackLayout Spacing="20">
-                            <CheckBox />
-                            <Label Style="{StaticResource checkboxlabel}" Text="My Tickets" />
+                            <input:CheckBox Style="{StaticResource checkboxlabel}" Text="My Tickets" />
+
                         </HorizontalStackLayout>
                         <HorizontalStackLayout Spacing="20">
-                            <CheckBox />
-                            <Label Style="{StaticResource checkboxlabel}" Text="SLA Breach" />
+                            <input:CheckBox Style="{StaticResource checkboxlabel}" Text="SLA Breach" />
+
                         </HorizontalStackLayout>
                     </VerticalStackLayout>
 

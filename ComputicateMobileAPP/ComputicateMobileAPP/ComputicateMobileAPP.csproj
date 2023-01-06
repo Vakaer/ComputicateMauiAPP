@@ -43,7 +43,7 @@
 		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />
 
 		<!-- Splash Screen -->
-		<MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#512BD4" BaseSize="128,128" />
+		<MauiSplashScreen Include="Resources\Splash\logo.svg" Color="#408BEA" BaseSize="128,128" />
 
 		<!-- Images -->
 		<MauiImage Include="Resources\Images\*" />
@@ -57,6 +57,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="C:\Users\DevHouse\.nuget\packages\inputkit.maui\4.2.1\contentFiles\any\net7.0-maccatalyst15.4\icon512.png" />
 	  <None Remove="Resources\Fonts\Inter-Black.ttf" />
 	  <None Remove="Resources\Fonts\Inter-Bold.ttf" />
 	  <None Remove="Resources\Fonts\Inter-ExtraBold.ttf" />
@@ -69,7 +70,11 @@
 	  <None Remove="Resources\Images\bhamburger.svg" />
 	  <None Remove="Resources\Images\blue_bell.svg" />
 	  <None Remove="Resources\Images\calendar.svg" />
+	  <None Remove="Resources\Images\caution.svg" />
 	  <None Remove="Resources\Images\dashboard.svg" />
+	  <None Remove="Resources\Images\dashboard_calender.svg" />
+	  <None Remove="Resources\Images\dashboard_clock.svg" />
+	  <None Remove="Resources\Images\dashboard_ticket.png" />
 	  <None Remove="Resources\Images\delete.svg" />
 	  <None Remove="Resources\Images\desk.png" />
 	  <None Remove="Resources\Images\done.svg" />
@@ -81,6 +86,7 @@
 	  <None Remove="Resources\Images\orange_clock.svg" />
 	  <None Remove="Resources\Images\pause_circle.svg" />
 	  <None Remove="Resources\Images\right_arrow.svg" />
+	  <None Remove="Resources\Images\sandbox.svg" />
 	  <None Remove="Resources\Images\search.svg" />
 	  <None Remove="Resources\Images\servicedesk.svg" />
 	  <None Remove="Resources\Images\signout.svg" />
@@ -88,12 +94,19 @@
 	  <None Remove="Resources\Images\ticket.svg" />
 	  <None Remove="Resources\Images\up_arrow.svg" />
 	  <None Remove="Resources\Images\whiteclock.svg" />
+	  <None Remove="Resources\Images\white_hamburger.svg" />
+	  <None Remove="Resources\Splash\logo.svg" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiImage Include="Resources\Splash\logo.svg" />
 	</ItemGroup>
 
 	<ItemGroup>
 	  <PackageReference Include="CommunityToolkit.Maui" Version="3.1.0" />
 	  <PackageReference Include="CommunityToolkit.Maui.Markup" Version="2.1.0" />
 	  <PackageReference Include="CustomSheets" Version="1.0.6" />
+	  <PackageReference Include="InputKit.Maui" Version="4.2.1" />
 	  <PackageReference Include="Mopups" Version="1.1.0" />
 	</ItemGroup>
 

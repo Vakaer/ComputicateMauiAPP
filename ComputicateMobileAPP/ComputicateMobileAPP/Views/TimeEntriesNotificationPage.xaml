@@ -3,7 +3,8 @@
     x:Class="ComputicateMobileAPP.Views.TimeEntriesNotificationPage"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    Title="TimeEntriesNotificationPage">
+    Title="TimeEntriesNotificationPage"
+    Shell.ForegroundColor="#2668C5">
 
     <ContentPage.ToolbarItems>
         <ToolbarItem IconImageSource="done.svg" />

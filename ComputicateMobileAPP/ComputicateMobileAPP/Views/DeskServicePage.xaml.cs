@@ -6,4 +6,20 @@ public partial class DeskServicePage : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void Search_Clicked(object sender, EventArgs e)
+    {
+       
+       
+       
+        if(PageTitle.IsVisible == true) {
+            PageTitle.IsVisible = false;
+            searchBar.IsVisible = true;
+        }
+        else
+        {
+            PageTitle.IsVisible = true;
+            searchBar.IsVisible = false;
+        }
+    }
 }

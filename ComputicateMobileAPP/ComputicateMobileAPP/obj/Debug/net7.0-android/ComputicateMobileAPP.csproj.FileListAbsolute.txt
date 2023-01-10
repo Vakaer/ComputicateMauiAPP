@@ -1133,3 +1133,8 @@ C:\Users\DevHouse\Documents\GitHub\ComputicateMauiAPP\ComputicateMobileAPP\Compu
 C:\Users\DevHouse\Documents\GitHub\ComputicateMauiAPP\ComputicateMobileAPP\ComputicateMobileAPP\obj\Debug\net7.0-android\resizetizer\r\drawable-xxhdpi\dashboard_calender.png
 C:\Users\DevHouse\Documents\GitHub\ComputicateMauiAPP\ComputicateMobileAPP\ComputicateMobileAPP\obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\dashboard_calender.png
 C:\Users\DevHouse\Documents\GitHub\ComputicateMauiAPP\ComputicateMobileAPP\ComputicateMobileAPP\obj\Debug\net7.0-android\resizetizer\r\drawable\dashboard_ticket.png
+C:\Users\DevHouse\Documents\GitHub\ComputicateMauiAPP\ComputicateMobileAPP\ComputicateMobileAPP\obj\Debug\net7.0-android\resizetizer\r\drawable-hdpi\white_bell.png
+C:\Users\DevHouse\Documents\GitHub\ComputicateMauiAPP\ComputicateMobileAPP\ComputicateMobileAPP\obj\Debug\net7.0-android\resizetizer\r\drawable-mdpi\white_bell.png
+C:\Users\DevHouse\Documents\GitHub\ComputicateMauiAPP\ComputicateMobileAPP\ComputicateMobileAPP\obj\Debug\net7.0-android\resizetizer\r\drawable-xhdpi\white_bell.png
+C:\Users\DevHouse\Documents\GitHub\ComputicateMauiAPP\ComputicateMobileAPP\ComputicateMobileAPP\obj\Debug\net7.0-android\resizetizer\r\drawable-xxhdpi\white_bell.png
+C:\Users\DevHouse\Documents\GitHub\ComputicateMauiAPP\ComputicateMobileAPP\ComputicateMobileAPP\obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\white_bell.png

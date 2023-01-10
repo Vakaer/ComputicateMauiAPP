@@ -12,16 +12,30 @@
     <Shell.TitleView>
         <Grid>
             <Label
+                x:Name="PageTitle"
                 Grid.Column="0"
                 FontFamily="InterMedium"
                 FontSize="18"
                 HorizontalTextAlignment="Start"
                 Text="Servicedesk"
                 VerticalTextAlignment="Center" />
+            <Border
+                x:Name="searchBar"
+                Grid.ColumnSpan="2"
+                BackgroundColor="#E9E9EA"
+                HeightRequest="30"
+                IsVisible="false"
+                VerticalOptions="Center">
+                <SearchBar Placeholder="Search items..." />
+            </Border>
+
         </Grid>
     </Shell.TitleView>
     <ContentPage.ToolbarItems>
-        <ToolbarItem IconImageSource="search.svg" Text="Search" />
+        <ToolbarItem
+            Clicked="Search_Clicked"
+            IconImageSource="search.svg"
+            Text="Search" />
         <ToolbarItem IconImageSource="filter.svg" Text="Filters" />
         <ToolbarItem IconImageSource="blue_bell.svg" Text="notifications" />
     </ContentPage.ToolbarItems>

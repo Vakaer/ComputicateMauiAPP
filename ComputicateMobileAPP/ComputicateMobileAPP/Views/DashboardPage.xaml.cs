@@ -26,4 +26,9 @@ public partial class DashboardPage : ContentPage
     {
         await Shell.Current.GoToAsync(nameof(TimeEntriesNotificationPage));
     }
+
+    private void Hamburger_Clicked(object sender, EventArgs e)
+    {
+        
+    }
 }

@@ -34,6 +34,7 @@ obj\Debug\net7.0-android\resizetizer\r\drawable-hdpi\splash.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-hdpi\ticket.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-hdpi\up_arrow.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-hdpi\whiteclock.png
+obj\Debug\net7.0-android\resizetizer\r\drawable-hdpi\white_bell.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-hdpi\white_hamburger.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-mdpi\bhamburger.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-mdpi\blue_bell.png
@@ -63,6 +64,7 @@ obj\Debug\net7.0-android\resizetizer\r\drawable-mdpi\splash.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-mdpi\ticket.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-mdpi\up_arrow.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-mdpi\whiteclock.png
+obj\Debug\net7.0-android\resizetizer\r\drawable-mdpi\white_bell.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-mdpi\white_hamburger.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xhdpi\bhamburger.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xhdpi\blue_bell.png
@@ -92,6 +94,7 @@ obj\Debug\net7.0-android\resizetizer\r\drawable-xhdpi\splash.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xhdpi\ticket.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xhdpi\up_arrow.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xhdpi\whiteclock.png
+obj\Debug\net7.0-android\resizetizer\r\drawable-xhdpi\white_bell.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xhdpi\white_hamburger.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xxhdpi\bhamburger.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xxhdpi\blue_bell.png
@@ -121,6 +124,7 @@ obj\Debug\net7.0-android\resizetizer\r\drawable-xxhdpi\splash.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xxhdpi\ticket.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xxhdpi\up_arrow.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xxhdpi\whiteclock.png
+obj\Debug\net7.0-android\resizetizer\r\drawable-xxhdpi\white_bell.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xxhdpi\white_hamburger.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\bhamburger.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\blue_bell.png
@@ -150,6 +154,7 @@ obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\splash.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\ticket.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\up_arrow.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\whiteclock.png
+obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\white_bell.png
 obj\Debug\net7.0-android\resizetizer\r\drawable-xxxhdpi\white_hamburger.png
 obj\Debug\net7.0-android\resizetizer\r\mipmap-anydpi-v26\appicon.xml
 obj\Debug\net7.0-android\resizetizer\r\mipmap-anydpi-v26\appicon_round.xml

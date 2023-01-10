@@ -9,7 +9,9 @@
     <ContentPage.ToolbarItems>
         <ToolbarItem IconImageSource="done.svg" />
     </ContentPage.ToolbarItems>
-
+    <Shell.BackButtonBehavior>
+        <BackButtonBehavior IconOverride="signout.svg" />
+    </Shell.BackButtonBehavior>
     <Shell.TitleView>
         <Grid ColumnDefinitions="1.5*,*" ColumnSpacing="0">
             <Label

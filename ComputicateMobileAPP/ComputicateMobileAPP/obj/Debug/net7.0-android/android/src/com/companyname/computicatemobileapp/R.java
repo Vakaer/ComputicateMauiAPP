@@ -10845,8 +10845,9 @@ public final class R {
     public static final int tooltip_frame_dark=0x7f0700ee;
     public static final int tooltip_frame_light=0x7f0700ef;
     public static final int up_arrow=0x7f0700f0;
-    public static final int white_hamburger=0x7f0700f1;
-    public static final int whiteclock=0x7f0700f2;
+    public static final int white_bell=0x7f0700f1;
+    public static final int white_hamburger=0x7f0700f2;
+    public static final int whiteclock=0x7f0700f3;
   }
   public static final class id {
     public static final int ALT=0x7f080000;
